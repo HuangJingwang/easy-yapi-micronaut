@@ -1,0 +1,13 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="" path="ActionManager" hit="" />
+    <option name="analysis" path="ActionManager" hit="Open Qodana Analysis Report…" />
+    <option name="open" path="ActionManager" hit="Open Qodana Analysis Report…" />
+    <option name="qodana" path="ActionManager" hit="Open Qodana Analysis Report…" />
+    <option name="report" path="ActionManager" hit="Open Qodana Analysis Report…" />
+    <option name="qodana" path="ActionManager" hit="Qodana" />
+  </configurable>
+  <configurable id="settings.qodana" configurable_name="Qodana">
+    <option name="qodana" hit="Qodana" />
+  </configurable>
+</options>

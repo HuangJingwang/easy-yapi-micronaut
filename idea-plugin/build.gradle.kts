@@ -2,6 +2,7 @@ plugins {
     id("org.jetbrains.intellij") version "1.17.1"
 }
 
+
 group = "com.itangcent"
 version = properties["plugin_version"]!!
 
@@ -21,6 +22,15 @@ repositories {
     mavenCentral()
 }
 
+
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    kotlinOptions.jvmTarget = "17"
+}
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
 dependencies {
 
     implementation(project(":common-api")) {

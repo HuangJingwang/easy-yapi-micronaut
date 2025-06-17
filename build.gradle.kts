@@ -37,37 +37,49 @@ kotlin {
     if (!javaVersion.isJava11Compatible) {
         throw Error("incompatible jdk version: $javaVersion")
     }
-    val majorVersion = JavaVersion.current().majorVersion.toInt()
+    val majorVersion = 17
     println("use jvmToolchain: $majorVersion")
     jvmToolchain(majorVersion)
 }
 
-tasks.create("codeCoverageReport", JacocoReport::class) {
-    executionData(
-        fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
-    )
-
-    val exclusiveDirectories = listOf("**/common/model/**")
-
-    subprojects.forEach { project ->
-        sourceDirectories.from(project.files("src/main/kotlin").map {
-            fileTree(it).matching {
-                exclude(exclusiveDirectories)
-            }
-        })
-        classDirectories.from(project.files("build/classes/kotlin/main").map {
-            fileTree(it).matching {
-                exclude(exclusiveDirectories)
-            }
-        })
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    kotlinOptions {
+        jvmTarget = "17"
     }
-
-    reports {
-        xml.required.set(true)
-        xml.outputLocation.set(file("${buildDir}/reports/jacoco/report.xml").apply { parentFile.mkdirs() })
-        html.required.set(false)
-        csv.required.set(false)
-    }
-
-    generate()
 }
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+//tasks.create("codeCoverageReport", JacocoReport::class) {
+//    executionData(
+//        fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
+//    )
+//
+//    val exclusiveDirectories = listOf("**/common/model/**")
+//
+//    subprojects.forEach { project ->
+//        sourceDirectories.from(project.files("src/main/kotlin").map {
+//            fileTree(it).matching {
+//                exclude(exclusiveDirectories)
+//            }
+//        })
+//        classDirectories.from(project.files("build/classes/kotlin/main").map {
+//            fileTree(it).matching {
+//                exclude(exclusiveDirectories)
+//            }
+//        })
+//    }
+//
+//    reports {
+//        xml.required.set(true)
+//        xml.outputLocation.set(file("${buildDir}/reports/jacoco/report.xml").apply { parentFile.mkdirs() })
+//        html.required.set(false)
+//        csv.required.set(false)
+//    }
+//
+//    generate()
+//}

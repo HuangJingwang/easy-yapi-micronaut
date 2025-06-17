@@ -1,0 +1,272 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="call" path="ActionManager" hit="Call" />
+    <option name="api" path="ActionManager" hit="Call Api" />
+    <option name="call" path="ActionManager" hit="Call Api" />
+    <option name="export" path="ActionManager" hit="Export" />
+    <option name="api" path="ActionManager" hit="Export Api" />
+    <option name="export" path="ActionManager" hit="Export Api" />
+    <option name="export" path="ActionManager" hit="Export Markdown" />
+    <option name="markdown" path="ActionManager" hit="Export Markdown" />
+    <option name="export" path="ActionManager" hit="Export Postman" />
+    <option name="postman" path="ActionManager" hit="Export Postman" />
+    <option name="export" path="ActionManager" hit="Export Yapi" />
+    <option name="yapi" path="ActionManager" hit="Export Yapi" />
+    <option name="exporttomarkdown" path="ActionManager" hit="ExportToMarkdown" />
+    <option name="exporttopostman" path="ActionManager" hit="ExportToPostman" />
+    <option name="exporttoyapi" path="ActionManager" hit="ExportToYapi" />
+    <option name="scriptexecutor" path="ActionManager" hit="ScriptExecutor" />
+    <option name="json" path="ActionManager" hit="To Json" />
+    <option name="to" path="ActionManager" hit="To Json" />
+    <option name="json5" path="ActionManager" hit="To Json5" />
+    <option name="to" path="ActionManager" hit="To Json5" />
+    <option name="properties" path="ActionManager" hit="To Properties" />
+    <option name="to" path="ActionManager" hit="To Properties" />
+    <option name="tojson" path="ActionManager" hit="ToJson" />
+    <option name="tojson5" path="ActionManager" hit="ToJson5" />
+    <option name="toproperties" path="ActionManager" hit="ToProperties" />
+  </configurable>
+  <configurable id="easyapi.settings.EasyApiConfigurable" configurable_name="EasyApi">
+    <option name="0b" hit="0B" />
+    <option name="all" hit="ALL" />
+    <option name="always" hit="ALWAYS_ASK" />
+    <option name="ask" hit="ALWAYS_ASK" />
+    <option name="always" hit="ALWAYS_UPDATE" />
+    <option name="update" hit="ALWAYS_UPDATE" />
+    <option name="actuator" hit="Actuator" />
+    <option name="apache" hit="Apache" />
+    <option name="apidashboard" hit="ApiDashBoard" />
+    <option name="auto" hit="Auto Merge Script" />
+    <option name="merge" hit="Auto Merge Script" />
+    <option name="script" hit="Auto Merge Script" />
+    <option name="build" hit="Build Example" />
+    <option name="example" hit="Build Example" />
+    <option name="copy" hit="COPY" />
+    <option name="cache" hit="Cache" />
+    <option name="charset" hit="Charset:" />
+    <option name="clear" hit="Clear" />
+    <option name="collections" hit="Collections:" />
+    <option name="common" hit="Common" />
+    <option name="console" hit="Console:" />
+    <option name="example" hit="EXAMPLE_ONLY" />
+    <option name="only" hit="EXAMPLE_ONLY" />
+    <option name="easyapi" hit="EasyApi" />
+    <option name="enable" hit="Enable Infer" />
+    <option name="infer" hit="Enable Infer" />
+    <option name="enable" hit="Enable URL Templating" />
+    <option name="templating" hit="Enable URL Templating" />
+    <option name="url" hit="Enable URL Templating" />
+    <option name="expanded" hit="Expanded form" />
+    <option name="form" hit="Expanded form" />
+    <option name="expanded" hit="Expanded query" />
+    <option name="query" hit="Expanded query" />
+    <option name="current" hit="Export current method only" />
+    <option name="export" hit="Export current method only" />
+    <option name="method" hit="Export current method only" />
+    <option name="only" hit="Export current method only" />
+    <option name="export" hit="Export mode:" />
+    <option name="mode" hit="Export mode:" />
+    <option name="feign" hit="Feign" />
+    <option name="format" hit="Format type:" />
+    <option name="type" hit="Format type:" />
+    <option name="gbk" hit="GBK" />
+    <option name="export" hit="Generic Export" />
+    <option name="generic" hit="Generic Export" />
+    <option name="as" hit="Getter as field" />
+    <option name="field" hit="Getter as field" />
+    <option name="getter" hit="Getter as field" />
+    <option name="global" hit="Global:" />
+    <option name="http" hit="Http" />
+    <option name="client" hit="Http client:" />
+    <option name="http" hit="Http client:" />
+    <option name="iso-8859-1" hit="ISO-8859-1" />
+    <option name="intelligent" hit="Intelligent" />
+    <option name="jax-rs" hit="JAX-RS (Quarkus | Jersey)" />
+    <option name="jersey" hit="JAX-RS (Quarkus | Jersey)" />
+    <option name="quarkus" hit="JAX-RS (Quarkus | Jersey)" />
+    <option name="log" hit="Log:" />
+    <option name="login" hit="Login Mode" />
+    <option name="mode" hit="Login Mode" />
+    <option name="content" hit="MULTI_CONTENT" />
+    <option name="multi" hit="MULTI_CONTENT" />
+    <option name="multi" hit="MULTI_TOOL_WINDOW" />
+    <option name="tool" hit="MULTI_TOOL_WINDOW" />
+    <option name="window" hit="MULTI_TOOL_WINDOW" />
+    <option name="markdown" hit="Markdown" />
+    <option name="deep" hit="Max infer deep:" />
+    <option name="infer" hit="Max infer deep:" />
+    <option name="max" hit="Max infer deep:" />
+    <option name="methoddoc" hit="MethodDoc" />
+    <option name="never" hit="NEVER_UPDATE" />
+    <option name="update" hit="NEVER_UPDATE" />
+    <option name="none" hit="NONE" />
+    <option name="normal" hit="NORMAL" />
+    <option name="okhttp" hit="Okhttp" />
+    <option name="demo" hit="Output Demo" />
+    <option name="output" hit="Output Demo" />
+    <option name="postman" hit="Postman" />
+    <option name="project" hit="Project:" />
+    <option name="before" hit="Pull Newest Data Before Upload" />
+    <option name="data" hit="Pull Newest Data Before Upload" />
+    <option name="newest" hit="Pull Newest Data Before Upload" />
+    <option name="pull" hit="Pull Newest Data Before Upload" />
+    <option name="upload" hit="Pull Newest Data Before Upload" />
+    <option name="quiet" hit="QUIET" />
+    <option name="only" hit="REQUEST_ONLY" />
+    <option name="request" hit="REQUEST_ONLY" />
+    <option name="only" hit="RESPONSE_ONLY" />
+    <option name="response" hit="RESPONSE_ONLY" />
+    <option name="refresh" hit="Refresh" />
+    <option name="simple" hit="SIMPLE" />
+    <option name="console" hit="SINGLE_CONSOLE" />
+    <option name="single" hit="SINGLE_CONSOLE" />
+    <option name="server" hit="Server:" />
+    <option name="as" hit="Setter as field" />
+    <option name="field" hit="Setter as field" />
+    <option name="setter" hit="Setter as field" />
+    <option name="support" hit="Support" />
+    <option name="notice" hit="Switch notice" />
+    <option name="switch" hit="Switch notice" />
+    <option name="s" hit="TimeOut(s):" />
+    <option name="timeout" hit="TimeOut(s):" />
+    <option name="token" hit="Token:" />
+    <option name="tokens" hit="Tokens:" />
+    <option name="hosts" hit="Trust hosts:" />
+    <option name="trust" hit="Trust hosts:" />
+    <option name="ultimate" hit="ULTIMATE" />
+    <option name="update" hit="UPDATE" />
+    <option name="changed" hit="UPDATE_IF_CHANGED" />
+    <option name="if" hit="UPDATE_IF_CHANGED" />
+    <option name="update" hit="UPDATE_IF_CHANGED" />
+    <option name="us-ascii" hit="US-ASCII" />
+    <option name="utf-16" hit="UTF-16" />
+    <option name="utf-32" hit="UTF-32" />
+    <option name="utf-8" hit="UTF-8" />
+    <option name="ssl" hit="Unsafe SSL" />
+    <option name="unsafe" hit="Unsafe SSL" />
+    <option name="json5" hit="Use json5(request)" />
+    <option name="request" hit="Use json5(request)" />
+    <option name="use" hit="Use json5(request)" />
+    <option name="json5" hit="Use json5(response)" />
+    <option name="response" hit="Use json5(response)" />
+    <option name="use" hit="Use json5(response)" />
+    <option name="json5" hit="Use json5:" />
+    <option name="use" hit="Use json5:" />
+    <option name="config" hit="Use recommend config" />
+    <option name="recommend" hit="Use recommend config" />
+    <option name="use" hit="Use recommend config" />
+    <option name="verbose" hit="VERBOSE" />
+    <option name="workspace" hit="Workspace:" />
+    <option name="collection" hit="Wrap Collection" />
+    <option name="wrap" hit="Wrap Collection" />
+    <option name="yapi" hit="Yapi" />
+    <option name="follow" hit="follow system" />
+    <option name="system" hit="follow system" />
+  </configurable>
+  <configurable id="easyapi.settings.EasyApiConfigurable.Recommend" configurable_name="Recommend">
+    <option name="preview" hit="Preview" />
+    <option name="recommend" hit="Recommend" />
+    <option name="config" hit="Select Config" />
+    <option name="select" hit="Select Config" />
+  </configurable>
+  <configurable id="easyapi.settings.EasyApiConfigurable.Remote" configurable_name="Remote">
+    <option name="o" hit="O" />
+    <option name="remote" hit="Remote" />
+    <option name="x" hit="X" />
+  </configurable>
+  <configurable id="easyapi.settings.EasyApiConfigurable.BuiltInConfig" configurable_name="BuildInConfig">
+    <option name="buildinconfig" hit="BuildInConfig" />
+  </configurable>
+  <configurable id="easyapi.settings.EasyApiConfigurable.AI" configurable_name="AI Integration">
+    <option name="ai" hit="AI Integration" />
+    <option name="integration" hit="AI Integration" />
+    <option name="ai" hit="AI Provider:" />
+    <option name="provider" hit="AI Provider:" />
+    <option name="api" hit="API Key:" />
+    <option name="key" hit="API Key:" />
+    <option name="deepseek" hit="DeepSeek" />
+    <option name="ai" hit="Enable AI Integration (beta)" />
+    <option name="beta" hit="Enable AI Integration (beta)" />
+    <option name="enable" hit="Enable AI Integration (beta)" />
+    <option name="integration" hit="Enable AI Integration (beta)" />
+    <option name="ai" hit="Enable AI for Method Return Type Inference" />
+    <option name="enable" hit="Enable AI for Method Return Type Inference" />
+    <option name="for" hit="Enable AI for Method Return Type Inference" />
+    <option name="inference" hit="Enable AI for Method Return Type Inference" />
+    <option name="method" hit="Enable AI for Method Return Type Inference" />
+    <option name="return" hit="Enable AI for Method Return Type Inference" />
+    <option name="type" hit="Enable AI for Method Return Type Inference" />
+    <option name="api" hit="Enable API Response Caching" />
+    <option name="caching" hit="Enable API Response Caching" />
+    <option name="enable" hit="Enable API Response Caching" />
+    <option name="response" hit="Enable API Response Caching" />
+    <option name="api" hit="Enable API Translation" />
+    <option name="enable" hit="Enable API Translation" />
+    <option name="translation" hit="Enable API Translation" />
+    <option name="ai" hit="General AI" />
+    <option name="general" hit="General AI" />
+    <option name="load" hit="Load" />
+    <option name="localllm" hit="LocalLLM" />
+    <option name="inference" hit="Method Inference" />
+    <option name="method" hit="Method Inference" />
+    <option name="model" hit="Model:" />
+    <option name="openai" hit="OpenAI" />
+    <option name="provider" hit="Provider" />
+    <option name="server" hit="Server URL:" />
+    <option name="url" hit="Server URL:" />
+    <option name="language" hit="Target Language:" />
+    <option name="target" hit="Target Language:" />
+    <option name="translation" hit="Translation" />
+    <option name="ar" hit="ar(Arabic)" />
+    <option name="arabic" hit="ar(Arabic)" />
+    <option name="de" hit="de(German)" />
+    <option name="german" hit="de(German)" />
+    <option name="en" hit="en(English)" />
+    <option name="english" hit="en(English)" />
+    <option name="es" hit="es(Spanish)" />
+    <option name="spanish" hit="es(Spanish)" />
+    <option name="fr" hit="fr(French)" />
+    <option name="french" hit="fr(French)" />
+    <option name="5" hit="gpt-3.5-turbo(GPT-3.5 Turbo)" />
+    <option name="5-turbo" hit="gpt-3.5-turbo(GPT-3.5 Turbo)" />
+    <option name="gpt-3" hit="gpt-3.5-turbo(GPT-3.5 Turbo)" />
+    <option name="turbo" hit="gpt-3.5-turbo(GPT-3.5 Turbo)" />
+    <option name="gpt-4" hit="gpt-4(GPT-4)" />
+    <option name="gpt-4" hit="gpt-4-turbo(GPT-4 Turbo)" />
+    <option name="gpt-4-turbo" hit="gpt-4-turbo(GPT-4 Turbo)" />
+    <option name="turbo" hit="gpt-4-turbo(GPT-4 Turbo)" />
+    <option name="gpt-4o" hit="gpt-4o(GPT-4o)" />
+    <option name="hi" hit="hi(Hindi)" />
+    <option name="hindi" hit="hi(Hindi)" />
+    <option name="it" hit="it(Italian)" />
+    <option name="italian" hit="it(Italian)" />
+    <option name="ja" hit="ja(Japanese)" />
+    <option name="japanese" hit="ja(Japanese)" />
+    <option name="ko" hit="ko(Korean)" />
+    <option name="korean" hit="ko(Korean)" />
+    <option name="dutch" hit="nl(Dutch)" />
+    <option name="nl" hit="nl(Dutch)" />
+    <option name="o1" hit="o1(O1)" />
+    <option name="mini" hit="o1-mini(O1 Mini)" />
+    <option name="o1" hit="o1-mini(O1 Mini)" />
+    <option name="o1-mini" hit="o1-mini(O1 Mini)" />
+    <option name="mini" hit="o3-mini(O3 Mini)" />
+    <option name="o3" hit="o3-mini(O3 Mini)" />
+    <option name="o3-mini" hit="o3-mini(O3 Mini)" />
+    <option name="portuguese" hit="pt(Portuguese)" />
+    <option name="pt" hit="pt(Portuguese)" />
+    <option name="ru" hit="ru(Russian)" />
+    <option name="russian" hit="ru(Russian)" />
+    <option name="tr" hit="tr(Turkish)" />
+    <option name="turkish" hit="tr(Turkish)" />
+    <option name="vi" hit="vi(Vietnamese)" />
+    <option name="vietnamese" hit="vi(Vietnamese)" />
+    <option name="chinese" hit="zh(Chinese)" />
+    <option name="zh" hit="zh(Chinese)" />
+  </configurable>
+  <configurable id="easyapi.settings.EasyApiConfigurable.Other" configurable_name="Other">
+    <option name="export" hit="Import&amp;Export" />
+    <option name="import" hit="Import&amp;Export" />
+    <option name="other" hit="Other" />
+  </configurable>
+</options>

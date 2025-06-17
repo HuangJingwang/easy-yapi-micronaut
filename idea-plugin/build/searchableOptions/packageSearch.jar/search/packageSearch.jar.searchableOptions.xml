@@ -1,0 +1,91 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="add" path="ActionManager" hit="Add dependency…" />
+    <option name="dependency" path="ActionManager" hit="Add dependency…" />
+    <option name="add" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="current" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="dependency" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="module" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="new" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="the" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="to" path="ActionManager" hit="Add new dependency to the current module" />
+    <option name="go" path="ActionManager" hit="Go to Package Search" />
+    <option name="package" path="ActionManager" hit="Go to Package Search" />
+    <option name="search" path="ActionManager" hit="Go to Package Search" />
+    <option name="to" path="ActionManager" hit="Go to Package Search" />
+    <option name="a" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="analyzer" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="and" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="dependency" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="disambiguate" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="highlights" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="if" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="in" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="module" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="needed" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="opens" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="popup" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="selected" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="tab" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="the" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="view" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="will" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="with" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="you" path="ActionManager" hit="Opens the Dependency Analyzer tab and highlights the selected dependency in the Dependency view. If needed, you will disambiguate the module with a popup." />
+    <option name="analyzer" path="ActionManager" hit="Show in Dependency Analyzer…" />
+    <option name="dependency" path="ActionManager" hit="Show in Dependency Analyzer…" />
+    <option name="in" path="ActionManager" hit="Show in Dependency Analyzer…" />
+    <option name="show" path="ActionManager" hit="Show in Dependency Analyzer…" />
+  </configurable>
+  <configurable id="preferences.packagesearch.PackageSearchGeneralConfigurable" configurable_name="Package Search">
+    <option name="" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="compile" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="import" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="maven" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="provided" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="runtime" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="scopes" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="system" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="test" hit=" Maven scopes: compile, provided, runtime, test, system, import" />
+    <option name="add" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="adding" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="automatically" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="changing" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="dependencies" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="missing" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="or" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="repositories" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="when" hit="Automatically add missing repositories when adding or changing dependencies" />
+    <option name="comma-separated" hit="Comma-separated list of configurations" />
+    <option name="configurations" hit="Comma-separated list of configurations" />
+    <option name="list" hit="Comma-separated list of configurations" />
+    <option name="of" hit="Comma-separated list of configurations" />
+    <option name="configuration" hit="Default Gradle configuration:" />
+    <option name="default" hit="Default Gradle configuration:" />
+    <option name="gradle" hit="Default Gradle configuration:" />
+    <option name="default" hit="Default Maven scope:" />
+    <option name="maven" hit="Default Maven scope:" />
+    <option name="scope" hit="Default Maven scope:" />
+    <option name="general" hit="General" />
+    <option name="gradle" hit="Gradle" />
+    <option name="configurations" hit="Gradle configurations:" />
+    <option name="gradle" hit="Gradle configurations:" />
+    <option name="maven" hit="Maven" />
+    <option name="package" hit="Package Search" />
+    <option name="search" hit="Package Search" />
+    <option name="defaults" hit="Restore defaults" />
+    <option name="restore" hit="Restore defaults" />
+    <option name="configurations" hit="Save configurations to this list when using them for the first time" />
+    <option name="first" hit="Save configurations to this list when using them for the first time" />
+    <option name="for" hit="Save configurations to this list when using them for the first time" />
+    <option name="list" hit="Save configurations to this list when using them for the first time" />
+    <option name="save" hit="Save configurations to this list when using them for the first time" />
+    <option name="the" hit="Save configurations to this list when using them for the first time" />
+    <option name="them" hit="Save configurations to this list when using them for the first time" />
+    <option name="this" hit="Save configurations to this list when using them for the first time" />
+    <option name="time" hit="Save configurations to this list when using them for the first time" />
+    <option name="to" hit="Save configurations to this list when using them for the first time" />
+    <option name="using" hit="Save configurations to this list when using them for the first time" />
+    <option name="when" hit="Save configurations to this list when using them for the first time" />
+  </configurable>
+</options>

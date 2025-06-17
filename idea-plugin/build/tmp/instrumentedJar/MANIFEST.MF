@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Gradle 8.0.2
+Build-JVM: 21.0.5 (Amazon.com Inc. 21.0.5+11-LTS)
+Version: 2.8.1.212.0
+Build-Plugin: Gradle IntelliJ Plugin
+Build-Plugin-Version: 1.17.1
+Build-OS: Mac OS X 14.5 x86_64
+Build-SDK: IC-2023.1.3
+

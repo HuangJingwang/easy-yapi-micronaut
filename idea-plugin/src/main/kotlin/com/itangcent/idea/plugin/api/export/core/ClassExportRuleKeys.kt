@@ -4,6 +4,12 @@ import com.itangcent.intellij.config.rule.*
 
 object ClassExportRuleKeys {
 
+    val IS_MICRONAUT_CTRL: RuleKey<Boolean> = SimpleRuleKey(
+        "class.is.micronaut.ctrl",
+        arrayOf("class.is.ctrl"),
+        BooleanRuleMode.ANY
+    )
+
     val MODULE: RuleKey<String> = SimpleRuleKey(
         "module",
         StringRuleMode.SINGLE

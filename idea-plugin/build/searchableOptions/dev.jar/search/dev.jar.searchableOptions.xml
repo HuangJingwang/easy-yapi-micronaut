@@ -1,0 +1,14 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="" path="ActionManager" hit="" />
+    <option name="current" path="ActionManager" hit="View PSI Structure of Current File..." />
+    <option name="file" path="ActionManager" hit="View PSI Structure of Current File..." />
+    <option name="of" path="ActionManager" hit="View PSI Structure of Current File..." />
+    <option name="psi" path="ActionManager" hit="View PSI Structure of Current File..." />
+    <option name="structure" path="ActionManager" hit="View PSI Structure of Current File..." />
+    <option name="view" path="ActionManager" hit="View PSI Structure of Current File..." />
+    <option name="psi" path="ActionManager" hit="View PSI Structure..." />
+    <option name="structure" path="ActionManager" hit="View PSI Structure..." />
+    <option name="view" path="ActionManager" hit="View PSI Structure..." />
+  </configurable>
+</options>

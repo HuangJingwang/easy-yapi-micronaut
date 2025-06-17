@@ -1,0 +1,76 @@
+<idea-plugin>
+  <id>com.itangcent.idea.plugin.easy-yapi</id>
+  <name>EasyYapi</name>
+  <version>2.8.1.212.0</version>
+  <vendor email="pentatangcent@gmail.com" url="https://github.com/tangcent">Tangcent</vendor>
+  <description><![CDATA[<meta charset="UTF-8">
+<h1>easy-yapi</h1>
+<br/>
+<a href="https://github.com/tangcent/easy-yapi">GitHub</a> |
+<a href="https://github.com/tangcent/easy-yapi/issues">Issues</a> |
+<a href="https://easyyapi.com">Guide</a>
+<br/>
+<br/>
+<b>Help you export API to yapi/postman/markdown</b>
+<br/>
+
+<ul>
+    <li>Parse API documents based on javadoc & KDoc & ScalaDoc</li>
+    <li>Note: It's possible to generate a comprehensive API document with minimal code modification.</li>
+    <li>However, specific requirements might necessitate additional comments/annotations.
+        To minimize code intrusion, you can employ flexible configuration rules tailored to your project's needs.
+    </li>
+</ul>
+<br/>
+<b> For more details, refer to the <a href="[https://easyyapi.com ↗](https://easyyapi.com)">Guide</a></b>
+
+<ul>How to Export API to Yapi/Postman/Markdown:
+    <p>
+        In your project, open the file containing the <code>API</code> or select the desired file or folder in the IDE's
+        left project file area.
+    </p>
+    <p>
+        Use the shortcut <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>E</kbd> (windows) / <kbd>Ctrl</kbd> <kbd>E</kbd> (mac).
+        Then, select the APIs you want to export, select the export channel <code>Yapi/Markdown/Postman</code>,
+        and click the [✔] button or press Enter to complete the export.
+    </p>
+</ul>
+<br/>
+<p>
+    <b>Note:</b> If the shortcut does not work, check for shortcut conflicts.
+    You can modify the shortcut in <kbd>Preferences(Settings)</kbd> > <kbd>KeyMap</kbd>.
+</p>
+<br/>]]></description>
+  <category>Web</category>
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="231" />
+  <!--for compatible-->
+  <!--<idea-version since-build="173.0" until-build="183.0"/>-->
+  <change-notes><![CDATA[<a href="https://github.com/tangcent/easy-yapi/releases/tag/v2.8.1">v2.8.1(2025-04-17)</a><br>
+<a href="https://github.com/tangcent/easy-yapi/blob/master/IDEA_CHANGELOG.md">Full Changelog</a>
+
+<h3>Enhancements:</h3>
+
+<ul>
+  <li>feat: Enhance script object 'api' with parameter accessor methods (<a href="https://github.com/tangcent/easy-yapi/pull/1241">#1241</a>)</li>
+
+  <li>feat: Add multi-window console logging capability (<a href="https://github.com/tangcent/easy-yapi/pull/1235">#1235</a>)</li>
+
+  <li>feat: ignore fields from java.lang system classes to prevent complex exported types (<a href="https://github.com/tangcent/easy-yapi/pull/1229">#1229</a>)</li>
+
+  <li>feat: support skipping unchanged API updates to YAPI (<a href="https://github.com/tangcent/easy-yapi/pull/1224">#1224</a>)</li>
+</ul>
+
+<h3>Fixes:</h3>]]></change-notes>
+  <!--This plugin will support IntelliJ IDEA Community and Ultimate Only before v2.0.0-->
+  <depends optional="true" config-file="easy-yapi-java.xml">com.intellij.modules.java</depends>
+  <!--it will cause 【Optional dependency declaration on 'com.intellij.modules.idea' should specify "config-file"】-->
+  <!--<depends optional="true">com.intellij.modules.idea</depends>-->
+  <depends optional="true" config-file="easy-api-kotlin.xml">org.jetbrains.kotlin</depends>
+  <depends optional="true" config-file="easy-api-scala.xml">org.intellij.scala</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add the tool window extension -->
+    <toolWindow id="API Dashboard" secondary="true" icon="AllIcons.Toolwindows.ToolWindowRun" anchor="right" factoryClass="com.itangcent.idea.plugin.api.dashboard.ApiDashboardToolWindow" />
+    <notificationGroup id="EasyApi Notifications" displayType="BALLOON" />
+  </extensions>
+</idea-plugin>
