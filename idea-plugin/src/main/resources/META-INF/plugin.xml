@@ -1,0 +1,38 @@
+<idea-plugin>
+    <id>com.itangcent.idea.plugin.easy-yapi</id>
+    <name>EasyYapi</name>
+    <version>2.8.1.212.0</version>
+    <vendor email="pentatangcent@gmail.com" url="https://github.com/tangcent">Tangcent</vendor>
+
+    <description><![CDATA[ Description will be added by gradle build]]></description>
+
+    <category>Web</category>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="212.0"/>
+
+    <!--for compatible-->
+    <!--<idea-version since-build="173.0" until-build="183.0"/>-->
+
+    <change-notes><![CDATA[	Change notes will be filled by gradle build ]]>
+    </change-notes>
+
+    <!--This plugin will support IntelliJ IDEA Community and Ultimate Only before v2.0.0-->
+
+    <depends optional="true" config-file="easy-yapi-java.xml">com.intellij.modules.java</depends>
+    <!--it will cause 【Optional dependency declaration on 'com.intellij.modules.idea' should specify "config-file"】-->
+    <!--<depends optional="true">com.intellij.modules.idea</depends>-->
+
+    <depends optional="true" config-file="easy-api-kotlin.xml">org.jetbrains.kotlin</depends>
+    <depends optional="true" config-file="easy-api-scala.xml">org.intellij.scala</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add the tool window extension -->
+        <toolWindow id="API Dashboard" 
+                   secondary="true"
+                   icon="AllIcons.Toolwindows.ToolWindowRun"
+                   anchor="right"
+                   factoryClass="com.itangcent.idea.plugin.api.dashboard.ApiDashboardToolWindow"/>
+        <notificationGroup id="EasyApi Notifications" displayType="BALLOON" />
+    </extensions>
+</idea-plugin>
