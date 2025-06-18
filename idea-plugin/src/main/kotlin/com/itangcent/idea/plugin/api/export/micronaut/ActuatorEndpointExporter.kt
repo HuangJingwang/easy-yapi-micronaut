@@ -8,9 +8,14 @@ import com.itangcent.common.kit.KVUtils
 import com.itangcent.common.model.Request
 import com.itangcent.common.model.URL
 import com.itangcent.common.utils.cache
+import com.itangcent.idea.condition.annotation.ConditionOnClass
 import com.itangcent.idea.plugin.api.export.core.*
+import com.itangcent.idea.plugin.api.export.spring.SpringClassName
+import com.itangcent.idea.plugin.condition.ConditionOnSetting
 
 @Singleton
+@ConditionOnClass("io.micronaut.http.annotation.Controller")
+@ConditionOnSetting("actuatorEnable")
 class ActuatorEndpointExporter : MicronautRequestClassExporter() {
 
     override fun processClass(cls: PsiClass, classExportContext: ClassExportContext) {

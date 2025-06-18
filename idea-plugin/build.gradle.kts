@@ -151,8 +151,4 @@ tasks {
         finalizedBy("cleanBin")
     }
 }
-sourceSets {
-    main {
-        resources.srcDirs("src/main/resources")
-    }
-}
+

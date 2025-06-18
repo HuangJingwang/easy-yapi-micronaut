@@ -35,7 +35,7 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
     protected lateinit var micronautRequestMappingResolver: MicronautRequestMappingResolver
 
     @Inject
-    private lateinit var micronautControllerAnnotationResolver: MicronautControllerAnnotationResolver
+    private lateinit var micronautControllerAnnotationResolver: StandardMicronautControllerAnnotationResolver
 
 
     override fun processClass(cls: PsiClass, classExportContext: ClassExportContext) {
@@ -59,10 +59,11 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
         logger.info("是否存在controller注解" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass));
 
         logger.info("是否存在controller注解" + ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass));
-        logger.info("MicronautControllerAnnotationResolver impl11 = ${micronautControllerAnnotationResolver.javaClass.name}")
+        logger.info("MicronautControllerAnnotationResolver impl11 = ${micronautControllerAnnotationResolver.javaClass.simpleName}")
+//        logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is CustomMicronautControllerAnnotationResolver))
+        logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is StandardMicronautControllerAnnotationResolver))
 
-        return micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass) ||
-                (ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass) ?: false)
+        return true
     }
 
     override fun isApi(psiMethod: PsiMethod): Boolean {

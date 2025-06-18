@@ -16,6 +16,7 @@ import com.itangcent.intellij.config.rule.RuleComputer
 import com.itangcent.intellij.context.ActionContext
 import com.itangcent.intellij.jvm.AnnotationHelper
 import com.itangcent.idea.psi.PsiMethodResource
+import com.itangcent.intellij.jvm.asPsiClass
 import com.itangcent.intellij.logger.Logger
 import kotlin.reflect.KClass
 
@@ -25,9 +26,8 @@ import kotlin.reflect.KClass
  * processing only essential information from Micronaut controllers.
  */
 @Singleton
-@ConditionOnSimple
+@ConditionOnSimple(value = false)
 @ConditionOnClass("io.micronaut.http.annotation.Controller")
-@ConditionOnDoc("request")
 open class SimpleMicronautRequestClassExporter : ClassExporter {
 
     @Inject
@@ -59,6 +59,8 @@ open class SimpleMicronautRequestClassExporter : ClassExporter {
     }
 
     override fun export(cls: Any, docHandle: DocHandle): Boolean {
+        logger.info("search Micronaut api from: " + cls.toString())
+
         if (cls !is PsiClass) return false
 
         val clsQualifiedName = actionContext.callInReadUI { cls.qualifiedName }
