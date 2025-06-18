@@ -42,11 +42,6 @@
     <option name="jetbrains" hit="Log in with JetBrains Account..." />
     <option name="log" hit="Log in with JetBrains Account..." />
     <option name="with" hit="Log in with JetBrains Account..." />
-    <option name="available" hit="Login service is not available" />
-    <option name="is" hit="Login service is not available" />
-    <option name="login" hit="Login service is not available" />
-    <option name="not" hit="Login service is not available" />
-    <option name="service" hit="Login service is not available" />
     <option name="enable" hit="Login to enable settings sync" />
     <option name="login" hit="Login to enable settings sync" />
     <option name="settings" hit="Login to enable settings sync" />

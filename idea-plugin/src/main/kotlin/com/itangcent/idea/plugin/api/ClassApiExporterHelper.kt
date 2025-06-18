@@ -14,6 +14,8 @@ import com.itangcent.common.utils.toBool
 import com.itangcent.idea.plugin.api.export.core.ClassExportRuleKeys
 import com.itangcent.idea.plugin.api.export.core.ClassExporter
 import com.itangcent.idea.plugin.api.export.core.LinkResolver
+import com.itangcent.idea.plugin.api.export.micronaut.ActuatorEndpointExporter
+import com.itangcent.idea.plugin.api.export.micronaut.MicronautRequestClassExporter
 import com.itangcent.idea.swing.MessagesHelper
 import com.itangcent.intellij.config.ConfigReader
 import com.itangcent.intellij.config.rule.RuleComputer
@@ -197,7 +199,6 @@ open class ClassApiExporterHelper {
     fun export(handle: (Doc) -> Unit) {
         logger.info("Starting API export process...")
         val psiClassQueue: BlockingQueue<PsiClass> = LinkedBlockingQueue()
-
         val boundary = actionContext.createBoundary()
 
         actionContext.runAsync {
@@ -224,6 +225,7 @@ open class ClassApiExporterHelper {
                 .fileFilter { file -> FileType.acceptable(file.name) }
                 .classHandle {
                     psiClassQueue.add(it)
+                    logger.info("Found class: ${it.qualifiedName}")
                 }
                 .traversal()
         }
@@ -240,6 +242,7 @@ open class ClassApiExporterHelper {
                 }
             } else {
                 val classQualifiedName = actionContext.callInReadUI { psiClass.qualifiedName }
+                System.out.println("### SYSTEM OUT: $classQualifiedName")  // 一定能看到
                 LOG.info("Processing API for class: $classQualifiedName")
                 actionContext.withBoundary {
                     classExporter.export(psiClass) { handle(it) }

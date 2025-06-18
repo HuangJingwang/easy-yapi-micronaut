@@ -1,8 +1,16 @@
 package com.itangcent.idea.plugin.api.export.micronaut
+import com.google.inject.Inject
 import com.google.inject.ProvidedBy
 import com.google.inject.Singleton
 import com.intellij.psi.PsiClass
+import com.itangcent.common.spi.ProxyBean
+import com.itangcent.intellij.context.ActionContext
 import com.itangcent.spi.SpiCompositeBeanProvider
+import com.itangcent.spi.SpiCompositeLoader
+import java.lang.reflect.Proxy
+import java.util.*
+import java.util.logging.Logger
+import kotlin.reflect.KClass
 
 /**
  * 该接口定义了一个用于判断 PsiClass 是否为 Micronaut 控制器的约定。

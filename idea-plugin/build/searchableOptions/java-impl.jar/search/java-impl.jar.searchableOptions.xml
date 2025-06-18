@@ -39,6 +39,7 @@
     <option name="stack" path="ActionManager" hit="Async Stack Traces" />
     <option name="traces" path="ActionManager" hit="Async Stack Traces" />
     <option name="auto" path="ActionManager" hit="Auto" />
+    <option name="beans" path="ActionManager" hit="Beans" />
     <option name="beforeclass" path="ActionManager" hit="BeforeClass Method" />
     <option name="method" path="ActionManager" hit="BeforeClass Method" />
     <option name="analysis" path="ActionManager" hit="Browse code chosen analysis item used in cycles" />
@@ -58,6 +59,10 @@
     <option name="calculate" path="ActionManager" hit="Calculate Retained Size..." />
     <option name="retained" path="ActionManager" hit="Calculate Retained Size..." />
     <option name="size" path="ActionManager" hit="Calculate Retained Size..." />
+    <option name="active" path="ActionManager" hit="Change Active Spring Profiles…" />
+    <option name="change" path="ActionManager" hit="Change Active Spring Profiles…" />
+    <option name="profiles" path="ActionManager" hit="Change Active Spring Profiles…" />
+    <option name="spring" path="ActionManager" hit="Change Active Spring Profiles…" />
     <option name="all" path="ActionManager" hit="Change type of the return type of the method, field, parameter, variable or class type arguments and correct all references" />
     <option name="and" path="ActionManager" hit="Change type of the return type of the method, field, parameter, variable or class type arguments and correct all references" />
     <option name="arguments" path="ActionManager" hit="Change type of the return type of the method, field, parameter, variable or class type arguments and correct all references" />
@@ -125,6 +130,9 @@
     <option name="functional" path="ActionManager" hit="Compiler Reference Functional Expression Search" />
     <option name="reference" path="ActionManager" hit="Compiler Reference Functional Expression Search" />
     <option name="search" path="ActionManager" hit="Compiler Reference Functional Expression Search" />
+    <option name="configure" path="ActionManager" hit="Configure OpenAPI Sources…" />
+    <option name="openapi" path="ActionManager" hit="Configure OpenAPI Sources…" />
+    <option name="sources" path="ActionManager" hit="Configure OpenAPI Sources…" />
     <option name="all" path="ActionManager" hit="Configure default structure for all new projects" />
     <option name="configure" path="ActionManager" hit="Configure default structure for all new projects" />
     <option name="default" path="ActionManager" hit="Configure default structure for all new projects" />
@@ -140,11 +148,6 @@
     <option name="convert" path="ActionManager" hit="Convert Anonymous to Inner..." />
     <option name="inner" path="ActionManager" hit="Convert Anonymous to Inner..." />
     <option name="to" path="ActionManager" hit="Convert Anonymous to Inner..." />
-    <option name="convert" path="ActionManager" hit="Convert Raw Types to Generics..." />
-    <option name="generics" path="ActionManager" hit="Convert Raw Types to Generics..." />
-    <option name="raw" path="ActionManager" hit="Convert Raw Types to Generics..." />
-    <option name="to" path="ActionManager" hit="Convert Raw Types to Generics..." />
-    <option name="types" path="ActionManager" hit="Convert Raw Types to Generics..." />
     <option name="convert" path="ActionManager" hit="Convert To Instance Method..." />
     <option name="instance" path="ActionManager" hit="Convert To Instance Method..." />
     <option name="method" path="ActionManager" hit="Convert To Instance Method..." />
@@ -175,13 +178,6 @@
     <option name="references" path="ActionManager" hit="Convert static method to instance method and correct all references" />
     <option name="static" path="ActionManager" hit="Convert static method to instance method and correct all references" />
     <option name="to" path="ActionManager" hit="Convert static method to instance method and correct all references" />
-    <option name="code" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="convert" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="generic" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="to" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="types" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="use" path="ActionManager" hit="Convert your code to use generic types" />
-    <option name="your" path="ActionManager" hit="Convert your code to use generic types" />
     <option name="create" path="ActionManager" hit="Create New Migration..." />
     <option name="migration" path="ActionManager" hit="Create New Migration..." />
     <option name="new" path="ActionManager" hit="Create New Migration..." />
@@ -221,6 +217,7 @@
     <option name="customize" path="ActionManager" hit="Customize Threads View..." />
     <option name="threads" path="ActionManager" hit="Customize Threads View..." />
     <option name="view" path="ActionManager" hit="Customize Threads View..." />
+    <option name="database" path="ActionManager" hit="Database" />
     <option name="build" path="ActionManager" hit="Debug Build Process" />
     <option name="debug" path="ActionManager" hit="Debug Build Process" />
     <option name="process" path="ActionManager" hit="Debug Build Process" />
@@ -261,6 +258,7 @@
     <option name="with" path="ActionManager" hit="Enable Tracking With Hidden Memory View" />
     <option name="encapsulate" path="ActionManager" hit="Encapsulate Fields..." />
     <option name="fields" path="ActionManager" hit="Encapsulate Fields..." />
+    <option name="endpoints" path="ActionManager" hit="Endpoints" />
     <option name="exclude" path="ActionManager" hit="Exclude from Validation" />
     <option name="from" path="ActionManager" hit="Exclude from Validation" />
     <option name="validation" path="ActionManager" hit="Exclude from Validation" />
@@ -386,9 +384,6 @@
     <option name="remote" path="ActionManager" hit="Guess and Bind Remote Repositories for All Libraries" />
     <option name="repositories" path="ActionManager" hit="Guess and Bind Remote Repositories for All Libraries" />
     <option name="hotswap" path="ActionManager" hit="HotSwap" />
-    <option name="idea" path="ActionManager" hit="IDEA New Project..." />
-    <option name="new" path="ActionManager" hit="IDEA New Project..." />
-    <option name="project" path="ActionManager" hit="IDEA New Project..." />
     <option name="build" path="ActionManager" hit="If enabled build process will wait for debug connections when started" />
     <option name="connections" path="ActionManager" hit="If enabled build process will wait for debug connections when started" />
     <option name="debug" path="ActionManager" hit="If enabled build process will wait for debug connections when started" />
@@ -420,6 +415,8 @@
     <option name="nullity" path="ActionManager" hit="Infer Nullity..." />
     <option name="infer" path="ActionManager" hit="Infer nullity" />
     <option name="nullity" path="ActionManager" hit="Infer nullity" />
+    <option name="intellij" path="ActionManager" hit="IntelliJ Profiler" />
+    <option name="profiler" path="ActionManager" hit="IntelliJ Profiler" />
     <option name="interrupt" path="ActionManager" hit="Interrupt" />
     <option name="console" path="ActionManager" hit="JShell Console..." />
     <option name="jshell" path="ActionManager" hit="JShell Console..." />
@@ -433,6 +430,7 @@
     <option name="source" path="ActionManager" hit="Jump To Type Source" />
     <option name="to" path="ActionManager" hit="Jump To Type Source" />
     <option name="type" path="ActionManager" hit="Jump To Type Source" />
+    <option name="kubernetes" path="ActionManager" hit="Kubernetes" />
     <option name="console" path="ActionManager" hit="Launch JShell Console" />
     <option name="jshell" path="ActionManager" hit="Launch JShell Console" />
     <option name="launch" path="ActionManager" hit="Launch JShell Console" />
@@ -519,6 +517,7 @@
     <option name="package" path="ActionManager" hit="Package File" />
     <option name="method" path="ActionManager" hit="Parameters Method" />
     <option name="parameters" path="ActionManager" hit="Parameters Method" />
+    <option name="persistence" path="ActionManager" hit="Persistence" />
     <option name="development" path="ActionManager" hit="Plugin Development" />
     <option name="plugin" path="ActionManager" hit="Plugin Development" />
     <option name="method" path="ActionManager" hit="Previous Method Overload" />
@@ -753,6 +752,9 @@
     <option name="root" path="ActionManager" hit="Unmark Generated Sources Root" />
     <option name="sources" path="ActionManager" hit="Unmark Generated Sources Root" />
     <option name="unmark" path="ActionManager" hit="Unmark Generated Sources Root" />
+    <option name="jdk" path="ActionManager" hit="Update Project JDK" />
+    <option name="project" path="ActionManager" hit="Update Project JDK" />
+    <option name="update" path="ActionManager" hit="Update Project JDK" />
     <option name="artifacts" path="ActionManager" hit="Update the file in the corresponding artifacts" />
     <option name="corresponding" path="ActionManager" hit="Update the file in the corresponding artifacts" />
     <option name="file" path="ActionManager" hit="Update the file in the corresponding artifacts" />
@@ -1213,10 +1215,80 @@
     <option name="classes" hit="Reload classes after compilation:" />
     <option name="compilation" hit="Reload classes after compilation:" />
     <option name="reload" hit="Reload classes after compilation:" />
-    <option name="background" hit="Reload classes in background" />
-    <option name="classes" hit="Reload classes in background" />
-    <option name="in" hit="Reload classes in background" />
-    <option name="reload" hit="Reload classes in background" />
+  </configurable>
+  <configurable id="promo.database" configurable_name="Database">
+    <option name="database" hit="Database" />
+    <option name="get" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="to" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="upgrade" hit="Upgrade to IntelliJ IDEA Ultimate" />
+  </configurable>
+  <configurable id="promo.kubernetes" configurable_name="Kubernetes">
+    <option name="get" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="kubernetes" hit="Kubernetes" />
+    <option name="idea" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="to" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="upgrade" hit="Upgrade to IntelliJ IDEA Ultimate" />
+  </configurable>
+  <configurable id="promo.javascript" configurable_name="JavaScript">
+    <option name="get" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="javascript" hit="JavaScript" />
+    <option name="idea" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="to" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="upgrade" hit="Upgrade to IntelliJ IDEA Ultimate" />
+  </configurable>
+  <configurable id="promo.typescript" configurable_name="TypeScript">
+    <option name="get" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="typescript" hit="TypeScript" />
+    <option name="idea" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="to" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="upgrade" hit="Upgrade to IntelliJ IDEA Ultimate" />
+  </configurable>
+  <configurable id="promo.swagger" configurable_name="OpenAPI Specifications">
+    <option name="get" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="openapi" hit="OpenAPI Specifications" />
+    <option name="specifications" hit="OpenAPI Specifications" />
+    <option name="idea" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="to" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="upgrade" hit="Upgrade to IntelliJ IDEA Ultimate" />
+  </configurable>
+  <configurable id="promo.profiler" configurable_name="Java Profiler">
+    <option name="get" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="idea" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Get IntelliJ IDEA Ultimate" />
+    <option name="java" hit="Java Profiler" />
+    <option name="profiler" hit="Java Profiler" />
+    <option name="idea" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="intellij" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="to" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="ultimate" hit="Upgrade to IntelliJ IDEA Ultimate" />
+    <option name="upgrade" hit="Upgrade to IntelliJ IDEA Ultimate" />
   </configurable>
   <configurable id="preferences.sourceCode.Java" configurable_name="Java">
     <option name="absolute" path="Tabs and Indents" hit="Absolute label indent" />
@@ -1321,8 +1393,6 @@
     <option name="" path="Code Generation" hit="Escalate" />
     <option name="escalate" path="Code Generation" hit="Escalate" />
     <option name="field" path="Code Generation" hit="Field:" />
-    <option name="final" path="Code Generation" hit="Final Modifier" />
-    <option name="modifier" path="Code Generation" hit="Final Modifier" />
     <option name="general" path="Imports" hit="General" />
     <option name="grouping" path="Arrangement" hit="Grouping rules:" />
     <option name="rules" path="Arrangement" hit="Grouping rules:" />
@@ -1448,6 +1518,12 @@
     <option name="tabs" path="Tabs and Indents" hit="Tabs and Indents" />
     <option name="class" path="Code Generation" hit="Test class:" />
     <option name="test" path="Code Generation" hit="Test class:" />
+    <option name="declaration" path="Code Generation" hit="Use 'var' for local variable declaration" />
+    <option name="for" path="Code Generation" hit="Use 'var' for local variable declaration" />
+    <option name="local" path="Code Generation" hit="Use 'var' for local variable declaration" />
+    <option name="use" path="Code Generation" hit="Use 'var' for local variable declaration" />
+    <option name="var" path="Code Generation" hit="Use 'var' for local variable declaration" />
+    <option name="variable" path="Code Generation" hit="Use 'var' for local variable declaration" />
     <option name="and" path="Code Generation" hit="Use Class::isInstance and Class::cast when possible" />
     <option name="cast" path="Code Generation" hit="Use Class::isInstance and Class::cast when possible" />
     <option name="class" path="Code Generation" hit="Use Class::isInstance and Class::cast when possible" />
@@ -1489,6 +1565,8 @@
     <option name="character" path="Tabs and Indents" hit="Use tab character" />
     <option name="tab" path="Tabs and Indents" hit="Use tab character" />
     <option name="use" path="Tabs and Indents" hit="Use tab character" />
+    <option name="declaration" path="Code Generation" hit="Variable declaration" />
+    <option name="variable" path="Code Generation" hit="Variable declaration" />
     <option name="and" path="Wrapping and Braces" hit="Wrapping and Braces" />
     <option name="braces" path="Wrapping and Braces" hit="Wrapping and Braces" />
     <option name="wrapping" path="Wrapping and Braces" hit="Wrapping and Braces" />
@@ -1617,6 +1695,7 @@
     <option name="" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="statement" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="while" path="Wrapping and Braces" hit="'while()' statement" />
+    <option name="+" path="Spaces" hit="Additive operators (+, -)" />
     <option name="-" path="Spaces" hit="Additive operators (+, -)" />
     <option name="additive" path="Spaces" hit="Additive operators (+, -)" />
     <option name="operators" path="Spaces" hit="Additive operators (+, -)" />
@@ -1715,6 +1794,7 @@
     <option name="left" path="Spaces" hit="Array initializer left brace" />
     <option name="assert" path="Wrapping and Braces" hit="Assert statement" />
     <option name="statement" path="Wrapping and Braces" hit="Assert statement" />
+    <option name="+" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="assignment" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="operators" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="assignment" path="Wrapping and Braces" hit="Assignment sign on next line" />
@@ -2029,6 +2109,8 @@
     <option name="in" path="Wrapping and Braces" hit="Types in multi-catch" />
     <option name="multi-catch" path="Wrapping and Braces" hit="Types in multi-catch" />
     <option name="types" path="Wrapping and Braces" hit="Types in multi-catch" />
+    <option name="+" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
+    <option name="++" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="-" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="--" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="operators" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
@@ -2325,6 +2407,7 @@
     <option name="18" hit="18" />
     <option name="19" hit="19" />
     <option name="20" hit="20" />
+    <option name="21" hit="21" />
     <option name="5" hit="5" />
     <option name="6" hit="6" />
     <option name="7" hit="7" />

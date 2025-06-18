@@ -1,12 +1,20 @@
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
     <option name="" path="ActionManager" hit="" />
+    <option name="command" path="ActionManager" hit="Command Completion" />
+    <option name="completion" path="ActionManager" hit="Command Completion" />
+    <option name="copy" path="ActionManager" hit="Copy" />
+    <option name="escape" path="ActionManager" hit="Escape" />
     <option name="goto" path="ActionManager" hit="Goto Next Splitter" />
     <option name="next" path="ActionManager" hit="Goto Next Splitter" />
     <option name="splitter" path="ActionManager" hit="Goto Next Splitter" />
     <option name="goto" path="ActionManager" hit="Goto Previous Splitter" />
     <option name="previous" path="ActionManager" hit="Goto Previous Splitter" />
     <option name="splitter" path="ActionManager" hit="Goto Previous Splitter" />
+    <option name="completion" path="ActionManager" hit="Insert Inline Completion Item" />
+    <option name="inline" path="ActionManager" hit="Insert Inline Completion Item" />
+    <option name="insert" path="ActionManager" hit="Insert Inline Completion Item" />
+    <option name="item" path="ActionManager" hit="Insert Inline Completion Item" />
     <option name="left" path="ActionManager" hit="Move Tab Left" />
     <option name="move" path="ActionManager" hit="Move Tab Left" />
     <option name="tab" path="ActionManager" hit="Move Tab Left" />
@@ -30,6 +38,19 @@
     <option name="terminal" path="ActionManager" hit="Open in Terminal" />
     <option name="rename" path="ActionManager" hit="Rename Session" />
     <option name="session" path="ActionManager" hit="Rename Session" />
+    <option name="above" path="ActionManager" hit="Select Block Above" />
+    <option name="block" path="ActionManager" hit="Select Block Above" />
+    <option name="select" path="ActionManager" hit="Select Block Above" />
+    <option name="below" path="ActionManager" hit="Select Block Below" />
+    <option name="block" path="ActionManager" hit="Select Block Below" />
+    <option name="select" path="ActionManager" hit="Select Block Below" />
+    <option name="block" path="ActionManager" hit="Select Last Block" />
+    <option name="last" path="ActionManager" hit="Select Last Block" />
+    <option name="select" path="ActionManager" hit="Select Last Block" />
+    <option name="prompt" path="ActionManager" hit="Select Prompt" />
+    <option name="select" path="ActionManager" hit="Select Prompt" />
+    <option name="documentation" path="ActionManager" hit="Show Documentation" />
+    <option name="show" path="ActionManager" hit="Show Documentation" />
     <option name="down" path="ActionManager" hit="Split Down" />
     <option name="split" path="ActionManager" hit="Split Down" />
     <option name="right" path="ActionManager" hit="Split Right" />

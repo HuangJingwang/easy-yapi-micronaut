@@ -6,6 +6,18 @@
     <option name="build" path="ActionManager" hit="Composite Build Configuration" />
     <option name="composite" path="ActionManager" hit="Composite Build Configuration" />
     <option name="configuration" path="ActionManager" hit="Composite Build Configuration" />
+    <option name="download" path="ActionManager" hit="Download Sources" />
+    <option name="sources" path="ActionManager" hit="Download Sources" />
+    <option name="all" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="code" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="download" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="in" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="libraries" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="of" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="project" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="source" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="the" path="ActionManager" hit="Download the source code of all libraries used in the project" />
+    <option name="used" path="ActionManager" hit="Download the source code of all libraries used in the project" />
     <option name="execute" path="ActionManager" hit="Execute Gradle Task" />
     <option name="gradle" path="ActionManager" hit="Execute Gradle Task" />
     <option name="task" path="ActionManager" hit="Execute Gradle Task" />
@@ -87,8 +99,26 @@
     <option name="tune" hit=" Override the default location where Gradle stores downloaded files, e.g. to tune anti-virus software on Windows" />
     <option name="where" hit=" Override the default location where Gradle stores downloaded files, e.g. to tune anti-virus software on Windows" />
     <option name="windows" hit=" Override the default location where Gradle stores downloaded files, e.g. to tune anti-virus software on Windows" />
+    <option name="a" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="allow" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="collecting" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="during" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="gradle" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="in" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="models" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="parallel" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="project" hit="Allow collecting Gradle models in parallel during a project reload." />
+    <option name="reload" hit="Allow collecting Gradle models in parallel during a project reload." />
     <option name="auto-select" hit="Auto-select" />
     <option name="distribution" hit="Distribution:" />
+    <option name="4+" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="7" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="enable" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="fetching" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="for" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="gradle" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="model" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
+    <option name="parallel" hit="Enable parallel Gradle model fetching for Gradle 7.4+" />
     <option name="general" hit="General Settings" />
     <option name="settings" hit="General Settings" />
     <option name="gradle" hit="Gradle" />
@@ -100,9 +130,6 @@
     <option name="gradle" hit="Gradle user home:" />
     <option name="home" hit="Gradle user home:" />
     <option name="user" hit="Gradle user home:" />
-    <option name="installation" hit="Local installation" />
-    <option name="local" hit="Local installation" />
     <option name="version" hit="Version:" />
-    <option name="wrapper" hit="Wrapper" />
   </configurable>
 </options>

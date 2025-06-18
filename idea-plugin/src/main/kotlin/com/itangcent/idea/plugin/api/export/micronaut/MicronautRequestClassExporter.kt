@@ -1,6 +1,7 @@
 package com.itangcent.idea.plugin.api.export.micronaut
 import com.google.inject.Inject
 import com.google.inject.Singleton
+import com.intellij.openapi.diagnostic.logger
 import com.intellij.psi.PsiClass
 import com.intellij.psi.PsiElement
 import com.intellij.psi.PsiMethod
@@ -15,7 +16,9 @@ import com.itangcent.idea.plugin.api.export.condition.ConditionOnSimple
 import com.itangcent.idea.plugin.api.export.core.*
 import com.itangcent.intellij.config.rule.computer
 import com.itangcent.intellij.jvm.AnnotationHelper
+import com.itangcent.intellij.jvm.asPsiClass
 import com.itangcent.intellij.util.hasFile
+import kotlin.math.log
 
 /**
  * Support export apis from Micronaut controllers.
@@ -36,6 +39,7 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
 
 
     override fun processClass(cls: PsiClass, classExportContext: ClassExportContext) {
+        logger.info("执行了micronaut的processClass")
 
         val ctrlRequestMappingAnn = findRequestMappingInAnn(cls)
         var basePath: URL = findHttpPath(ctrlRequestMappingAnn)
@@ -51,11 +55,18 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
     }
 
     override fun hasApi(psiClass: PsiClass): Boolean {
+        logger.info("执行了micronaut的hasApi")
+        logger.info("是否存在controller注解" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass));
+
+        logger.info("是否存在controller注解" + ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass));
+        logger.info("MicronautControllerAnnotationResolver impl11 = ${micronautControllerAnnotationResolver.javaClass.name}")
+
         return micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass) ||
                 (ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass) ?: false)
     }
 
     override fun isApi(psiMethod: PsiMethod): Boolean {
+        logger.info("执行了micronaut的isApi" + psiMethod.name)
         return micronautRequestMappingResolver.resolveRequestMapping(psiMethod) != null
     }
 

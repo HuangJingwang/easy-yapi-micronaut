@@ -89,10 +89,6 @@
     <option name="document" path="ActionManager" hit="Import Word Document…" />
     <option name="import" path="ActionManager" hit="Import Word Document…" />
     <option name="word" path="ActionManager" hit="Import Word Document…" />
-    <option name="docs" path="ActionManager" hit="Import from Google Docs…" />
-    <option name="from" path="ActionManager" hit="Import from Google Docs…" />
-    <option name="google" path="ActionManager" hit="Import from Google Docs…" />
-    <option name="import" path="ActionManager" hit="Import from Google Docs…" />
     <option name="header" path="ActionManager" hit="Increase Header Level" />
     <option name="increase" path="ActionManager" hit="Increase Header Level" />
     <option name="level" path="ActionManager" hit="Increase Header Level" />
@@ -220,17 +216,16 @@
     <option name="typing" hit="Renumber list when typing" />
     <option name="when" hit="Renumber list when typing" />
     <option name="tables" hit="Tables" />
-    <option name="enter" hit="Use Shift+Enter to insert new table row" />
     <option name="insert" hit="Use Shift+Enter to insert new table row" />
     <option name="new" hit="Use Shift+Enter to insert new table row" />
     <option name="row" hit="Use Shift+Enter to insert new table row" />
-    <option name="shift" hit="Use Shift+Enter to insert new table row" />
+    <option name="shift+enter" hit="Use Shift+Enter to insert new table row" />
     <option name="table" hit="Use Shift+Enter to insert new table row" />
     <option name="to" hit="Use Shift+Enter to insert new table row" />
     <option name="use" hit="Use Shift+Enter to insert new table row" />
     <option name="cells" hit="Use Tab/Shift+Tab to navigate table cells" />
     <option name="navigate" hit="Use Tab/Shift+Tab to navigate table cells" />
-    <option name="shift" hit="Use Tab/Shift+Tab to navigate table cells" />
+    <option name="shift+tab" hit="Use Tab/Shift+Tab to navigate table cells" />
     <option name="tab" hit="Use Tab/Shift+Tab to navigate table cells" />
     <option name="table" hit="Use Tab/Shift+Tab to navigate table cells" />
     <option name="to" hit="Use Tab/Shift+Tab to navigate table cells" />

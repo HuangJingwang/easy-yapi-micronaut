@@ -5,6 +5,10 @@
     <option name="code" path="ActionManager" hit="About Code With Me" />
     <option name="me" path="ActionManager" hit="About Code With Me" />
     <option name="with" path="ActionManager" hit="About Code With Me" />
+    <option name="and" path="ActionManager" hit="Audio and Calls" />
+    <option name="audio" path="ActionManager" hit="Audio and Calls" />
+    <option name="calls" path="ActionManager" hit="Audio and Calls" />
+    <option name="camera" path="ActionManager" hit="Camera" />
     <option name="call" path="ActionManager" hit="Code With Me: Show Call Window" />
     <option name="code" path="ActionManager" hit="Code With Me: Show Call Window" />
     <option name="me" path="ActionManager" hit="Code With Me: Show Call Window" />
@@ -21,67 +25,79 @@
     <option name="follow" path="ActionManager" hit="Follow single user" />
     <option name="single" path="ActionManager" hit="Follow single user" />
     <option name="user" path="ActionManager" hit="Follow single user" />
-    <option name="call" path="ActionManager" hit="Join Voice Call" />
-    <option name="join" path="ActionManager" hit="Join Voice Call" />
-    <option name="voice" path="ActionManager" hit="Join Voice Call" />
+    <option name="call" path="ActionManager" hit="Join Call" />
+    <option name="join" path="ActionManager" hit="Join Call" />
     <option name="cursor" path="ActionManager" hit="Jump to cursor" />
     <option name="jump" path="ActionManager" hit="Jump to cursor" />
     <option name="to" path="ActionManager" hit="Jump to cursor" />
+    <option name="call" path="ActionManager" hit="Leave Call" />
+    <option name="leave" path="ActionManager" hit="Leave Call" />
     <option name="everyone" path="ActionManager" hit="Make Everyone Follow You" />
     <option name="follow" path="ActionManager" hit="Make Everyone Follow You" />
     <option name="make" path="ActionManager" hit="Make Everyone Follow You" />
     <option name="you" path="ActionManager" hit="Make Everyone Follow You" />
+    <option name="microphone" path="ActionManager" hit="Microphone" />
     <option name="code" path="ActionManager" hit="Open Code With Me Settings" />
     <option name="me" path="ActionManager" hit="Open Code With Me Settings" />
     <option name="open" path="ActionManager" hit="Open Code With Me Settings" />
     <option name="settings" path="ActionManager" hit="Open Code With Me Settings" />
     <option name="with" path="ActionManager" hit="Open Code With Me Settings" />
+    <option name="screen" path="ActionManager" hit="Screen Sharing" />
+    <option name="sharing" path="ActionManager" hit="Screen Sharing" />
     <option name="settings" path="ActionManager" hit="Settings…" />
-    <option name="a" path="ActionManager" hit="Submit a Bug Report..." />
-    <option name="bug" path="ActionManager" hit="Submit a Bug Report..." />
-    <option name="report" path="ActionManager" hit="Submit a Bug Report..." />
-    <option name="submit" path="ActionManager" hit="Submit a Bug Report..." />
+    <option name="cwm" path="ActionManager" hit="Show CWM Round Icon Test" />
+    <option name="icon" path="ActionManager" hit="Show CWM Round Icon Test" />
+    <option name="round" path="ActionManager" hit="Show CWM Round Icon Test" />
+    <option name="show" path="ActionManager" hit="Show CWM Round Icon Test" />
+    <option name="test" path="ActionManager" hit="Show CWM Round Icon Test" />
+    <option name="configuration" path="ActionManager" hit="Show Connection Configuration Widget (Internal)" />
+    <option name="connection" path="ActionManager" hit="Show Connection Configuration Widget (Internal)" />
+    <option name="internal" path="ActionManager" hit="Show Connection Configuration Widget (Internal)" />
+    <option name="show" path="ActionManager" hit="Show Connection Configuration Widget (Internal)" />
+    <option name="widget" path="ActionManager" hit="Show Connection Configuration Widget (Internal)" />
     <option name="current" path="ActionManager" hit="Unfollow current lead" />
     <option name="lead" path="ActionManager" hit="Unfollow current lead" />
     <option name="unfollow" path="ActionManager" hit="Unfollow current lead" />
+    <option name="avatars" path="ActionManager" hit="User Avatars" />
+    <option name="user" path="ActionManager" hit="User Avatars" />
   </configurable>
   <configurable id="reference.settingsdialog.IDE.editor.colors.Code With Me" configurable_name="Code With Me">
     <option name="code" hit="Code With Me" />
     <option name="me" hit="Code With Me" />
     <option name="with" hit="Code With Me" />
-    <option name="1" hit="User 1 marker" />
-    <option name="marker" hit="User 1 marker" />
-    <option name="user" hit="User 1 marker" />
+    <option name="1" hit="User 1 cursor" />
+    <option name="cursor" hit="User 1 cursor" />
+    <option name="user" hit="User 1 cursor" />
     <option name="1" hit="User 1 selection" />
     <option name="selection" hit="User 1 selection" />
     <option name="user" hit="User 1 selection" />
-    <option name="2" hit="User 2 marker" />
-    <option name="marker" hit="User 2 marker" />
-    <option name="user" hit="User 2 marker" />
+    <option name="2" hit="User 2 cursor" />
+    <option name="cursor" hit="User 2 cursor" />
+    <option name="user" hit="User 2 cursor" />
     <option name="2" hit="User 2 selection" />
     <option name="selection" hit="User 2 selection" />
     <option name="user" hit="User 2 selection" />
-    <option name="3" hit="User 3 marker" />
-    <option name="marker" hit="User 3 marker" />
-    <option name="user" hit="User 3 marker" />
+    <option name="3" hit="User 3 cursor" />
+    <option name="cursor" hit="User 3 cursor" />
+    <option name="user" hit="User 3 cursor" />
     <option name="3" hit="User 3 selection" />
     <option name="selection" hit="User 3 selection" />
     <option name="user" hit="User 3 selection" />
-    <option name="4" hit="User 4 marker" />
-    <option name="marker" hit="User 4 marker" />
-    <option name="user" hit="User 4 marker" />
+    <option name="4" hit="User 4 cursor" />
+    <option name="cursor" hit="User 4 cursor" />
+    <option name="user" hit="User 4 cursor" />
     <option name="4" hit="User 4 selection" />
     <option name="selection" hit="User 4 selection" />
     <option name="user" hit="User 4 selection" />
-    <option name="5" hit="User 5 marker" />
-    <option name="marker" hit="User 5 marker" />
-    <option name="user" hit="User 5 marker" />
+    <option name="5" hit="User 5 cursor" />
+    <option name="cursor" hit="User 5 cursor" />
+    <option name="user" hit="User 5 cursor" />
     <option name="5" hit="User 5 selection" />
     <option name="selection" hit="User 5 selection" />
     <option name="user" hit="User 5 selection" />
-    <option name="6" hit="User 6 marker" />
-    <option name="marker" hit="User 6 marker" />
-    <option name="user" hit="User 6 marker" />
+    <option name="6" hit="User 6 cursor" />
+    <option name="cursor" hit="User 6 cursor" />
+    <option name="user" hit="User 6 cursor" />
     <option name="6" hit="User 6 selection" />
     <option name="selection" hit="User 6 selection" />
     <option name="user" hit="User 6 selection" />

@@ -14,6 +14,7 @@ import com.itangcent.idea.plugin.api.export.core.*
 class ActuatorEndpointExporter : MicronautRequestClassExporter() {
 
     override fun processClass(cls: PsiClass, classExportContext: ClassExportContext) {
+        logger.debug("Processing class:" + this::class.qualifiedName)
         val controllerAnn = annotationHelper.findAnnMap(cls, "io.micronaut.http.annotation.Controller")
         if (controllerAnn != null) {
             val basePathStr = controllerAnn["value"] as? String ?: ""

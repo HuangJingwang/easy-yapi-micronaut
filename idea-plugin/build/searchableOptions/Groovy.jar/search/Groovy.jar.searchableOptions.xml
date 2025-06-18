@@ -81,8 +81,6 @@
     <option name="groovy" path="ActionManager" hit="Groovy Class" />
     <option name="console" path="ActionManager" hit="Groovy Console" />
     <option name="groovy" path="ActionManager" hit="Groovy Console" />
-    <option name="groovy" path="ActionManager" hit="Groovy Resources" />
-    <option name="resources" path="ActionManager" hit="Groovy Resources" />
     <option name="groovy" path="ActionManager" hit="Groovy Script" />
     <option name="script" path="ActionManager" hit="Groovy Script" />
     <option name="console" path="ActionManager" hit="Launch Groovy console" />
@@ -90,19 +88,6 @@
     <option name="launch" path="ActionManager" hit="Launch Groovy console" />
     <option name="rebuild" path="ActionManager" hit="Rebuild Resources" />
     <option name="resources" path="ActionManager" hit="Rebuild Resources" />
-    <option name="check" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="compilation" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="compiler" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="files" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="for" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="groovy" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="in" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="issues" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="resource" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="roots" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="run" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="the" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
-    <option name="to" path="ActionManager" hit="Run the compiler for Groovy files in resource roots to check for compilation issues" />
     <option name="all" path="ActionManager" hit="Run the compiler for all Groovy files in resource roots to check for compilation issues" />
     <option name="check" path="ActionManager" hit="Run the compiler for all Groovy files in resource roots to check for compilation issues" />
     <option name="compilation" path="ActionManager" hit="Run the compiler for all Groovy files in resource roots to check for compilation issues" />
@@ -610,6 +595,7 @@
     <option name="" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="statement" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="while" path="Wrapping and Braces" hit="'while()' statement" />
+    <option name="+" path="Spaces" hit="Additive operators (+, -)" />
     <option name="-" path="Spaces" hit="Additive operators (+, -)" />
     <option name="additive" path="Spaces" hit="Additive operators (+, -)" />
     <option name="operators" path="Spaces" hit="Additive operators (+, -)" />
@@ -679,6 +665,7 @@
     <option name="left" path="Spaces" hit="Array initializer left brace" />
     <option name="assert" path="Wrapping and Braces" hit="Assert statement" />
     <option name="statement" path="Wrapping and Braces" hit="Assert statement" />
+    <option name="+" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="assignment" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="operators" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="assignment" path="Wrapping and Braces" hit="Assignment sign on next line" />
@@ -953,6 +940,8 @@
     <option name="cast" path="Spaces" hit="Type cast parentheses" />
     <option name="parentheses" path="Spaces" hit="Type cast parentheses" />
     <option name="type" path="Spaces" hit="Type cast parentheses" />
+    <option name="+" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
+    <option name="++" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
     <option name="-" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
     <option name="--" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />
     <option name="operators" path="Spaces" hit="Unary operators (!, -, +, ++, --, *)" />

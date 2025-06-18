@@ -55,6 +55,7 @@
     <option name="rebase" path="ActionManager" hit="Change commit message via reword option of git rebase or amend" />
     <option name="reword" path="ActionManager" hit="Change commit message via reword option of git rebase or amend" />
     <option name="via" path="ActionManager" hit="Change commit message via reword option of git rebase or amend" />
+    <option name="changelists" path="ActionManager" hit="Changelists" />
     <option name="checkout" path="ActionManager" hit="Checkout" />
     <option name="checkout" path="ActionManager" hit="Checkout Revision" />
     <option name="revision" path="ActionManager" hit="Checkout Revision" />
@@ -78,6 +79,20 @@
     <option name="revision" path="ActionManager" hit="Checkout selected revision or a branch on selected commit" />
     <option name="selected" path="ActionManager" hit="Checkout selected revision or a branch on selected commit" />
     <option name="clone" path="ActionManager" hit="Clone…" />
+    <option name="all" path="ActionManager" hit="Commit All when Nothing Is Staged" />
+    <option name="commit" path="ActionManager" hit="Commit All when Nothing Is Staged" />
+    <option name="is" path="ActionManager" hit="Commit All when Nothing Is Staged" />
+    <option name="nothing" path="ActionManager" hit="Commit All when Nothing Is Staged" />
+    <option name="staged" path="ActionManager" hit="Commit All when Nothing Is Staged" />
+    <option name="when" path="ActionManager" hit="Commit All when Nothing Is Staged" />
+    <option name="all" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="are" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="commit" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="files" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="no" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="staged" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="there" path="ActionManager" hit="Commit all files when there are no staged files" />
+    <option name="when" path="ActionManager" hit="Commit all files when there are no staged files" />
     <option name="and" path="ActionManager" hit="Commit and Push…" />
     <option name="commit" path="ActionManager" hit="Commit and Push…" />
     <option name="push" path="ActionManager" hit="Commit and Push…" />
@@ -144,6 +159,13 @@
     <option name="to" path="ActionManager" hit="Create new tag pointing to this commit" />
     <option name="delete" path="ActionManager" hit="Delete" />
     <option name="directory" path="ActionManager" hit="Directory" />
+    <option name="and" path="ActionManager" hit="Disable staging area and switch to changelists" />
+    <option name="area" path="ActionManager" hit="Disable staging area and switch to changelists" />
+    <option name="changelists" path="ActionManager" hit="Disable staging area and switch to changelists" />
+    <option name="disable" path="ActionManager" hit="Disable staging area and switch to changelists" />
+    <option name="staging" path="ActionManager" hit="Disable staging area and switch to changelists" />
+    <option name="switch" path="ActionManager" hit="Disable staging area and switch to changelists" />
+    <option name="to" path="ActionManager" hit="Disable staging area and switch to changelists" />
     <option name="drop" path="ActionManager" hit="Drop" />
     <option name="commits" path="ActionManager" hit="Drop Commits" />
     <option name="drop" path="ActionManager" hit="Drop Commits" />
@@ -356,6 +378,11 @@
     <option name="tree" path="ActionManager" hit="Show Diff with Working Tree" />
     <option name="with" path="ActionManager" hit="Show Diff with Working Tree" />
     <option name="working" path="ActionManager" hit="Show Diff with Working Tree" />
+    <option name="command" path="ActionManager" hit="Show Git Log for Command" />
+    <option name="for" path="ActionManager" hit="Show Git Log for Command" />
+    <option name="git" path="ActionManager" hit="Show Git Log for Command" />
+    <option name="log" path="ActionManager" hit="Show Git Log for Command" />
+    <option name="show" path="ActionManager" hit="Show Git Log for Command" />
     <option name="git" path="ActionManager" hit="Show Git Repository Log…" />
     <option name="log" path="ActionManager" hit="Show Git Repository Log…" />
     <option name="repository" path="ActionManager" hit="Show Git Repository Log…" />
@@ -372,6 +399,9 @@
     <option name="local" path="ActionManager" hit="Show Local Version" />
     <option name="show" path="ActionManager" hit="Show Local Version" />
     <option name="version" path="ActionManager" hit="Show Local Version" />
+    <option name="branches" path="ActionManager" hit="Show Recent Branches" />
+    <option name="recent" path="ActionManager" hit="Show Recent Branches" />
+    <option name="show" path="ActionManager" hit="Show Recent Branches" />
     <option name="at" path="ActionManager" hit="Show Repository at Revision" />
     <option name="repository" path="ActionManager" hit="Show Repository at Revision" />
     <option name="revision" path="ActionManager" hit="Show Repository at Revision" />
@@ -453,8 +483,15 @@
     <option name="all" path="ActionManager" hit="Stage All Tracked" />
     <option name="stage" path="ActionManager" hit="Stage All Tracked" />
     <option name="tracked" path="ActionManager" hit="Stage All Tracked" />
+    <option name="content" path="ActionManager" hit="Stage Without Content" />
+    <option name="stage" path="ActionManager" hit="Stage Without Content" />
+    <option name="without" path="ActionManager" hit="Stage Without Content" />
+    <option name="area" path="ActionManager" hit="Staging Area" />
+    <option name="staging" path="ActionManager" hit="Staging Area" />
     <option name="changes" path="ActionManager" hit="Stash Changes…" />
     <option name="stash" path="ActionManager" hit="Stash Changes…" />
+    <option name="files" path="ActionManager" hit="Stash Files" />
+    <option name="stash" path="ActionManager" hit="Stash Files" />
     <option name="silently" path="ActionManager" hit="Stash Silently" />
     <option name="stash" path="ActionManager" hit="Stash Silently" />
     <option name="dialog" path="ActionManager" hit="Test Git Login Dialog" />
@@ -500,6 +537,16 @@
     <option name="log" path="ActionManager" hit="Use Shared Git Log Index Data" />
     <option name="shared" path="ActionManager" hit="Use Shared Git Log Index Data" />
     <option name="use" path="ActionManager" hit="Use Shared Git Log Index Data" />
+    <option name="commits" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="concept" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="for" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="git" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="making" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="native" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="of" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="staging" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="the" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
+    <option name="use" path="ActionManager" hit="Use the native Git concept of staging for making commits" />
     <option name="operations" path="ActionManager" hit="VCS Operations" />
     <option name="vcs" path="ActionManager" hit="VCS Operations" />
     <option name="vcs" path="ActionManager" hit="VCS Widget" />

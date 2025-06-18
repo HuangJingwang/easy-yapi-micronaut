@@ -10,26 +10,10 @@
     <option name="usage" path="ActionManager" hit="Check Component Functions Usage Search" />
     <option name="clear" path="ActionManager" hit="Clear results" />
     <option name="results" path="ActionManager" hit="Clear results" />
-    <option name="configure" path="ActionManager" hit="Configure Kotlin (JavaScript) in Project" />
-    <option name="in" path="ActionManager" hit="Configure Kotlin (JavaScript) in Project" />
-    <option name="javascript" path="ActionManager" hit="Configure Kotlin (JavaScript) in Project" />
-    <option name="kotlin" path="ActionManager" hit="Configure Kotlin (JavaScript) in Project" />
-    <option name="project" path="ActionManager" hit="Configure Kotlin (JavaScript) in Project" />
-    <option name="configure" path="ActionManager" hit="Configure Kotlin Plugin Updates" />
-    <option name="kotlin" path="ActionManager" hit="Configure Kotlin Plugin Updates" />
-    <option name="plugin" path="ActionManager" hit="Configure Kotlin Plugin Updates" />
-    <option name="updates" path="ActionManager" hit="Configure Kotlin Plugin Updates" />
     <option name="configure" path="ActionManager" hit="Configure Kotlin in Project" />
     <option name="in" path="ActionManager" hit="Configure Kotlin in Project" />
     <option name="kotlin" path="ActionManager" hit="Configure Kotlin in Project" />
     <option name="project" path="ActionManager" hit="Configure Kotlin in Project" />
-    <option name="automatic" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
-    <option name="configure" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
-    <option name="for" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
-    <option name="kotlin" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
-    <option name="plugin" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
-    <option name="the" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
-    <option name="updates" path="ActionManager" hit="Configure automatic updates for the Kotlin plugin" />
     <option name="convert" path="ActionManager" hit="Convert Java File to Kotlin File" />
     <option name="file" path="ActionManager" hit="Convert Java File to Kotlin File" />
     <option name="java" path="ActionManager" hit="Convert Java File to Kotlin File" />
@@ -181,6 +165,11 @@
     <option name="kotlin" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
     <option name="logs" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
     <option name="show" path="ActionManager" hit="Show Kotlin Gradle DSL Logs" />
+    <option name="dialog" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="feedback" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="kotlin" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="onboarding" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
+    <option name="show" path="ActionManager" hit="Show Kotlin Onboarding Feedback Dialog" />
     <option name="kotlin" path="ActionManager" hit="Show Kotlin Variables Only" />
     <option name="only" path="ActionManager" hit="Show Kotlin Variables Only" />
     <option name="show" path="ActionManager" hit="Show Kotlin Variables Only" />
@@ -561,42 +550,7 @@
     <option name="kotlin" hit="Kotlin" />
   </configurable>
   <configurable id="preferences.language.Kotlin" configurable_name="Kotlin">
-    <option name="analyzer" hit="Analyzer version:" />
-    <option name="version" hit="Analyzer version:" />
-    <option name="again" hit="Check again" />
-    <option name="check" hit="Check again" />
-    <option name="current" hit="Current Kotlin plugin version:" />
-    <option name="kotlin" hit="Current Kotlin plugin version:" />
-    <option name="plugin" hit="Current Kotlin plugin version:" />
-    <option name="version" hit="Current Kotlin plugin version:" />
-    <option name="access" hit="Early Access Preview" />
-    <option name="early" hit="Early Access Preview" />
-    <option name="preview" hit="Early Access Preview" />
-    <option name="experimental" hit="Experimental Features" />
-    <option name="features" hit="Experimental Features" />
-    <option name="install" hit="Install" />
     <option name="kotlin" hit="Kotlin" />
-    <option name="configurations" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="dsl" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="during" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="gradle" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="import" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="kotlin" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="load" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="project" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="script" hit="Load Gradle Kotlin DSL script configurations during Gradle project import" />
-    <option name="completion" hit="ML Completion for Kotlin" />
-    <option name="for" hit="ML Completion for Kotlin" />
-    <option name="kotlin" hit="ML Completion for Kotlin" />
-    <option name="ml" hit="ML Completion for Kotlin" />
-    <option name="converter" hit="New Java to Kotlin Converter" />
-    <option name="java" hit="New Java to Kotlin Converter" />
-    <option name="kotlin" hit="New Java to Kotlin Converter" />
-    <option name="new" hit="New Java to Kotlin Converter" />
-    <option name="to" hit="New Java to Kotlin Converter" />
-    <option name="stable" hit="Stable" />
-    <option name="channel" hit="Update channel:" />
-    <option name="update" hit="Update channel:" />
   </configurable>
   <configurable id="preferences.sourceCode.Kotlin" configurable_name="Kotlin">
     <option name="" path="Imports" hit=" names used" />
@@ -808,6 +762,7 @@
     <option name="" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="statement" path="Wrapping and Braces" hit="'while()' statement" />
     <option name="while" path="Wrapping and Braces" hit="'while()' statement" />
+    <option name="+" path="Spaces" hit="Additive operators (+, -)" />
     <option name="-" path="Spaces" hit="Additive operators (+, -)" />
     <option name="additive" path="Spaces" hit="Additive operators (+, -)" />
     <option name="operators" path="Spaces" hit="Additive operators (+, -)" />
@@ -874,6 +829,7 @@
     <option name="initializer" path="Wrapping and Braces" hit="Array initializer" />
     <option name="assert" path="Wrapping and Braces" hit="Assert statement" />
     <option name="statement" path="Wrapping and Braces" hit="Assert statement" />
+    <option name="+" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="assignment" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="operators" path="Spaces" hit="Assignment operators (=, +=, ...)" />
     <option name="assignment" path="Wrapping and Braces" hit="Assignment sign on next line" />
@@ -1087,6 +1043,8 @@
     <option name="throws" path="Wrapping and Braces" hit="Throws keyword" />
     <option name="list" path="Wrapping and Braces" hit="Throws list" />
     <option name="throws" path="Wrapping and Braces" hit="Throws list" />
+    <option name="+" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
+    <option name="++" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="-" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="--" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
     <option name="operators" path="Spaces" hit="Unary operators (!, -, +, ++, --)" />
@@ -1173,8 +1131,6 @@
     <option name="1" hit="1.5 (deprecated)" />
     <option name="5" hit="1.5 (deprecated)" />
     <option name="deprecated" hit="1.5 (deprecated)" />
-    <option name="1" hit="1.6" />
-    <option name="6" hit="1.6" />
     <option name="1" hit="1.6 (deprecated)" />
     <option name="6" hit="1.6 (deprecated)" />
     <option name="deprecated" hit="1.6 (deprecated)" />
@@ -1194,9 +1150,10 @@
     <option name="17" hit="17" />
     <option name="18" hit="18" />
     <option name="19" hit="19" />
-    <option name="0" hit="2.0 (experimental)" />
-    <option name="2" hit="2.0 (experimental)" />
-    <option name="experimental" hit="2.0 (experimental)" />
+    <option name="0" hit="2.0" />
+    <option name="2" hit="2.0" />
+    <option name="20" hit="20" />
+    <option name="21" hit="21" />
     <option name="9" hit="9" />
     <option name="amd" hit="AMD" />
     <option name="api" hit="API version" />
@@ -1206,10 +1163,10 @@
     <option name="line" hit="Additional command line parameters:" />
     <option name="parameters" hit="Additional command line parameters:" />
     <option name="always" hit="Always" />
-    <option name="1" hit="Bundled (1.8.21-release-380)" />
-    <option name="21-release-380" hit="Bundled (1.8.21-release-380)" />
-    <option name="8" hit="Bundled (1.8.21-release-380)" />
-    <option name="bundled" hit="Bundled (1.8.21-release-380)" />
+    <option name="0-release-358" hit="Bundled (1.9.0-release-358)" />
+    <option name="1" hit="Bundled (1.9.0-release-358)" />
+    <option name="9" hit="Bundled (1.9.0-release-358)" />
+    <option name="bundled" hit="Bundled (1.9.0-release-358)" />
     <option name="commonjs" hit="CommonJS" />
     <option name="copy" hit="Copy library runtime files" />
     <option name="files" hit="Copy library runtime files" />
@@ -1260,10 +1217,10 @@
     <option name="to" hit="Kotlin to JavaScript" />
     <option name="language" hit="Language version" />
     <option name="version" hit="Language version" />
-    <option name="1" hit="Latest stable (1.9)" />
-    <option name="9" hit="Latest stable (1.9)" />
-    <option name="latest" hit="Latest stable (1.9)" />
-    <option name="stable" hit="Latest stable (1.9)" />
+    <option name="0" hit="Latest stable (2.0)" />
+    <option name="2" hit="Latest stable (2.0)" />
+    <option name="latest" hit="Latest stable (2.0)" />
+    <option name="stable" hit="Latest stable (2.0)" />
     <option name="available" hit="Loading available versions from Maven..." />
     <option name="from" hit="Loading available versions from Maven..." />
     <option name="loading" hit="Loading available versions from Maven..." />

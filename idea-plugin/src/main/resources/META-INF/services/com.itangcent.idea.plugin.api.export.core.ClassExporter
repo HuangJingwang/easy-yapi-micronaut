@@ -1,3 +1,5 @@
+com.itangcent.idea.plugin.api.export.micronaut.SimpleMicronautRequestClassExporter
+com.itangcent.idea.plugin.api.export.micronaut.MicronautRequestClassExporter
 com.itangcent.idea.plugin.api.export.spring.SimpleSpringRequestClassExporter
 com.itangcent.idea.plugin.api.export.spring.SpringRequestClassExporter
 com.itangcent.idea.plugin.api.export.spring.ActuatorEndpointExporter

@@ -238,15 +238,6 @@
     <option name="open" path="ActionManager" hit="Open Maven settings.xml" />
     <option name="settings" path="ActionManager" hit="Open Maven settings.xml" />
     <option name="xml" path="ActionManager" hit="Open Maven settings.xml" />
-    <option name="open" path="ActionManager" hit="Open profiles.xml" />
-    <option name="profiles" path="ActionManager" hit="Open profiles.xml" />
-    <option name="xml" path="ActionManager" hit="Open profiles.xml" />
-    <option name="for" path="ActionManager" hit="Open profiles.xml for selected projects" />
-    <option name="open" path="ActionManager" hit="Open profiles.xml for selected projects" />
-    <option name="profiles" path="ActionManager" hit="Open profiles.xml for selected projects" />
-    <option name="projects" path="ActionManager" hit="Open profiles.xml for selected projects" />
-    <option name="selected" path="ActionManager" hit="Open profiles.xml for selected projects" />
-    <option name="xml" path="ActionManager" hit="Open profiles.xml for selected projects" />
     <option name="open" path="ActionManager" hit="Open settings.xml" />
     <option name="settings" path="ActionManager" hit="Open settings.xml" />
     <option name="xml" path="ActionManager" hit="Open settings.xml" />
@@ -259,6 +250,9 @@
     <option name="opens" path="ActionManager" hit="Opens Maven config file for selected module or library" />
     <option name="or" path="ActionManager" hit="Opens Maven config file for selected module or library" />
     <option name="selected" path="ActionManager" hit="Opens Maven config file for selected module or library" />
+    <option name="maven" path="ActionManager" hit="Print Maven Statistics" />
+    <option name="print" path="ActionManager" hit="Print Maven Statistics" />
+    <option name="statistics" path="ActionManager" hit="Print Maven Statistics" />
     <option name="property" path="ActionManager" hit="Property" />
     <option name="all" path="ActionManager" hit="Reload All Maven Projects" />
     <option name="maven" path="ActionManager" hit="Reload All Maven Projects" />
@@ -273,6 +267,14 @@
     <option name="configuration" path="ActionManager" hit="Remove Run Configuration" />
     <option name="remove" path="ActionManager" hit="Remove Run Configuration" />
     <option name="run" path="ActionManager" hit="Remove Run Configuration" />
+    <option name="profiles" path="ActionManager" hit="Reset Profiles" />
+    <option name="reset" path="ActionManager" hit="Reset Profiles" />
+    <option name="default" path="ActionManager" hit="Reset profiles to default state" />
+    <option name="profiles" path="ActionManager" hit="Reset profiles to default state" />
+    <option name="reset" path="ActionManager" hit="Reset profiles to default state" />
+    <option name="state" path="ActionManager" hit="Reset profiles to default state" />
+    <option name="to" path="ActionManager" hit="Reset profiles to default state" />
+    <option name="resetmavenstatistics" path="ActionManager" hit="ResetMavenStatistics" />
     <option name="build" path="ActionManager" hit="Run Maven Build" />
     <option name="maven" path="ActionManager" hit="Run Maven Build" />
     <option name="run" path="ActionManager" hit="Run Maven Build" />
@@ -303,6 +305,10 @@
     <option name="project" path="ActionManager" hit="Show version for Maven project" />
     <option name="show" path="ActionManager" hit="Show version for Maven project" />
     <option name="version" path="ActionManager" hit="Show version for Maven project" />
+    <option name="all" path="ActionManager" hit="Stop All Maven Connectors" />
+    <option name="connectors" path="ActionManager" hit="Stop All Maven Connectors" />
+    <option name="maven" path="ActionManager" hit="Stop All Maven Connectors" />
+    <option name="stop" path="ActionManager" hit="Stop All Maven Connectors" />
     <option name="mode" path="ActionManager" hit="Toggle 'Skip Tests' Mode" />
     <option name="skip" path="ActionManager" hit="Toggle 'Skip Tests' Mode" />
     <option name="tests" path="ActionManager" hit="Toggle 'Skip Tests' Mode" />
@@ -427,9 +433,6 @@
     <option name="maven" hit="Use Maven wrapper" />
     <option name="use" hit="Use Maven wrapper" />
     <option name="wrapper" hit="Use Maven wrapper" />
-    <option name="plugin" hit="Use plugin registry" />
-    <option name="registry" hit="Use plugin registry" />
-    <option name="use" hit="Use plugin registry" />
     <option name="config" hit="Use settings from .mvn/maven.config" />
     <option name="from" hit="Use settings from .mvn/maven.config" />
     <option name="maven" hit="Use settings from .mvn/maven.config" />
@@ -539,13 +542,6 @@
     <option name="pom" hit="Create IntelliJ IDEA modules for aggregator projects (with 'pom' packaging)" />
     <option name="projects" hit="Create IntelliJ IDEA modules for aggregator projects (with 'pom' packaging)" />
     <option name="with" hit="Create IntelliJ IDEA modules for aggregator projects (with 'pom' packaging)" />
-    <option name="create" hit="Create module groups for multi-module Maven projects" />
-    <option name="for" hit="Create module groups for multi-module Maven projects" />
-    <option name="groups" hit="Create module groups for multi-module Maven projects" />
-    <option name="maven" hit="Create module groups for multi-module Maven projects" />
-    <option name="module" hit="Create module groups for multi-module Maven projects" />
-    <option name="multi-module" hit="Create module groups for multi-module Maven projects" />
-    <option name="projects" hit="Create module groups for multi-module Maven projects" />
     <option name="dependency" hit="Dependency types:" />
     <option name="types" hit="Dependency types:" />
     <option name="automatically" hit="Detect automatically" />
@@ -691,9 +687,6 @@
     <option name="the" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
     <option name="this" hit="Options specified in this field override the ones in .mvn/jvm.config files" />
     <option name="properties" hit="Properties:" />
-    <option name="background" hit="Run in background" />
-    <option name="in" hit="Run in background" />
-    <option name="run" hit="Run in background" />
     <option name="runner" hit="Runner" />
     <option name="skip" hit="Skip Tests" />
     <option name="tests" hit="Skip Tests" />

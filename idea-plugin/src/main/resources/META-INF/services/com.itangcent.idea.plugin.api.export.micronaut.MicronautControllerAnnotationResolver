@@ -1,0 +1,2 @@
+com.itangcent.idea.plugin.api.export.micronaut.CustomMicronautControllerAnnotationResolver
+com.itangcent.idea.plugin.api.export.micronaut.StandardMicronautControllerAnnotationResolver

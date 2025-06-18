@@ -169,9 +169,8 @@
     <option name="repositories" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
     <option name="required" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
     <option name="server" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
-    <option name="ssh" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
     <option name="subversion" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
-    <option name="svn" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
+    <option name="svn+ssh" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
     <option name="terminal" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
     <option name="the" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
     <option name="this" hit=" Emulates the behavior when Subversion commands are executed directly from the terminal (in the interactive mode). This is required to handle password/passphrase prompts for svn+ssh repositories, and trust invalid server certificates for https repositories." />
@@ -188,9 +187,9 @@
     <option name="for" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
     <option name="http" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
     <option name="protocols" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
-    <option name="ssh" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
     <option name="stored" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
     <option name="svn" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
+    <option name="svn+ssh" hit="Delete all stored credentials for 'http', 'svn' and 'svn+ssh' protocols" />
     <option name="enable" hit="Enable interactive mode" />
     <option name="interactive" hit="Enable interactive mode" />
     <option name="mode" hit="Enable interactive mode" />

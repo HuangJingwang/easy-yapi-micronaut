@@ -170,6 +170,7 @@
     <option name="select" hit="Select Config" />
   </configurable>
   <configurable id="easyapi.settings.EasyApiConfigurable.Remote" configurable_name="Remote">
+    <option name="+" hit="+" />
     <option name="o" hit="O" />
     <option name="remote" hit="Remote" />
     <option name="x" hit="X" />
@@ -265,6 +266,8 @@
     <option name="zh" hit="zh(Chinese)" />
   </configurable>
   <configurable id="easyapi.settings.EasyApiConfigurable.Other" configurable_name="Other">
+    <option name="export" hit="Export" />
+    <option name="import" hit="Import" />
     <option name="export" hit="Import&amp;Export" />
     <option name="import" hit="Import&amp;Export" />
     <option name="other" hit="Other" />

@@ -7,6 +7,7 @@ group = "com.itangcent"
 version = properties["plugin_version"]!!
 
 val intellijVersions = arrayOf(
+    mapOf("jdk" to 21, "version" to "2023.3.1", "since" to "233"),
     mapOf("jdk" to 17, "version" to "2023.1.3", "since" to "231"),
     mapOf("jdk" to 15, "version" to "2022.2.3", "since" to "223"),
     mapOf("jdk" to 11, "version" to "2021.2.1", "since" to "212")
@@ -75,7 +76,7 @@ dependencies {
 //        exclude("com.google.code.gson")
 //    }
 
-    implementation("com.google.inject:guice:4.2.2") {
+    implementation("com.google.inject:guice:7.0.0") {
         exclude("org.checkerframework", "checker-compat-qual")
         exclude("com.google.guava", "guava")
     }
@@ -148,5 +149,10 @@ tasks {
     
     getByName("build") {
         finalizedBy("cleanBin")
+    }
+}
+sourceSets {
+    main {
+        resources.srcDirs("src/main/resources")
     }
 }

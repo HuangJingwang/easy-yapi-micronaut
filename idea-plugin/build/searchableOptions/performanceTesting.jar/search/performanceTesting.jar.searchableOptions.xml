@@ -1,5 +1,11 @@
 <options>
   <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="capture" path="ActionManager" hit="Capture Memory Snapshot" />
+    <option name="memory" path="ActionManager" hit="Capture Memory Snapshot" />
+    <option name="snapshot" path="ActionManager" hit="Capture Memory Snapshot" />
+    <option name="capture" path="ActionManager" hit="Capture memory snapshot" />
+    <option name="memory" path="ActionManager" hit="Capture memory snapshot" />
+    <option name="snapshot" path="ActionManager" hit="Capture memory snapshot" />
     <option name="execute" path="ActionManager" hit="Execute Performance Script…" />
     <option name="performance" path="ActionManager" hit="Execute Performance Script…" />
     <option name="script" path="ActionManager" hit="Execute Performance Script…" />

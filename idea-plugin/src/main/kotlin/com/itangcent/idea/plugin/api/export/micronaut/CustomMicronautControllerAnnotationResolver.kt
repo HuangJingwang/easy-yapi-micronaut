@@ -5,6 +5,7 @@ import com.intellij.psi.PsiClass
 import com.itangcent.intellij.context.ActionContext
 import com.itangcent.intellij.jvm.PsiResolver
 import java.util.concurrent.ConcurrentHashMap
+import java.util.logging.Logger
 
 /**
  * 该类实现了 MicronautControllerAnnotationResolver，
@@ -27,6 +28,8 @@ class CustomMicronautControllerAnnotationResolver : MicronautControllerAnnotatio
 
     @Inject
     private lateinit var actionContext: ActionContext
+    @Inject
+    private lateinit var logger: Logger
 
     /**
      * 缓存注解名是否是 Micronaut 控制器注解的判断结果。
@@ -34,6 +37,8 @@ class CustomMicronautControllerAnnotationResolver : MicronautControllerAnnotatio
     private val controllerAnnotationLookup = ConcurrentHashMap<String, Boolean>()
 
     override fun hasControllerAnnotation(psiClass: PsiClass): Boolean {
+        logger.info("Checking if class ${psiClass.name} has Micronaut controller annotation...")
+
         return actionContext.callInReadUI {
             psiClass.annotations.any { annotation ->
                 val annotationQualifiedName = annotation.qualifiedName ?: return@any false

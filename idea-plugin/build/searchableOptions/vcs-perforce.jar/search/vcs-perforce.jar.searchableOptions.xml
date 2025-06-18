@@ -79,36 +79,32 @@
     <option name="work" path="ActionManager" hit="Work Offline" />
   </configurable>
   <configurable id="vcs.Perforce" configurable_name="Perforce">
-    <option name="charset" hit="Charset:" />
-    <option name="config" hit="Config Settings" />
-    <option name="settings" hit="Config Settings" />
-    <option name="commands" hit="Dump Perforce Commands to" />
-    <option name="dump" hit="Dump Perforce Commands to" />
-    <option name="perforce" hit="Dump Perforce Commands to" />
-    <option name="to" hit="Dump Perforce Commands to" />
+    <option name="" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="easy-yapi" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="idea-plugin" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="idea-sandbox" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="java" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="log" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="mac26" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="p4output" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="system" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="users" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="workspace" hit="'/Users/mac26/workspace/java/easy-yapi/easy-yapi/idea-plugin/idea-sandbox/system/log/p4output.log'" />
+    <option name="commands" hit="Dump Perforce Commands" />
+    <option name="dump" hit="Dump Perforce Commands" />
+    <option name="perforce" hit="Dump Perforce Commands" />
     <option name="enable" hit="Enable Perforce Jobs support" />
     <option name="jobs" hit="Enable Perforce Jobs support" />
     <option name="perforce" hit="Enable Perforce Jobs support" />
     <option name="support" hit="Enable Perforce Jobs support" />
-    <option name="ignore" hit="Ignore Settings" />
-    <option name="settings" hit="Ignore Settings" />
-    <option name="environment" hit="P4IGNORE environment variable is not set" />
-    <option name="is" hit="P4IGNORE environment variable is not set" />
-    <option name="not" hit="P4IGNORE environment variable is not set" />
-    <option name="p4ignore" hit="P4IGNORE environment variable is not set" />
-    <option name="set" hit="P4IGNORE environment variable is not set" />
-    <option name="variable" hit="P4IGNORE environment variable is not set" />
-    <option name="are" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="environment" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="not" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="p4client" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="p4config" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="p4passwd" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="p4port" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="p4user" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="s" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="set" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
-    <option name="value" hit="P4PORT,P4CLIENT,P4USER,P4PASSWD,P4CONFIG environment value(s) are not set" />
+    <option name="executable" hit="Find ignored files using P4 executable" />
+    <option name="files" hit="Find ignored files using P4 executable" />
+    <option name="find" hit="Find ignored files using P4 executable" />
+    <option name="ignored" hit="Find ignored files using P4 executable" />
+    <option name="p4" hit="Find ignored files using P4 executable" />
+    <option name="using" hit="Find ignored files using P4 executable" />
+    <option name="file" hit="Log File:" />
+    <option name="log" hit="Log File:" />
     <option name="executable" hit="Path to P4 executable:" />
     <option name="p4" hit="Path to P4 executable:" />
     <option name="path" hit="Path to P4 executable:" />
@@ -117,16 +113,7 @@
     <option name="p4vc" hit="Path to P4VC executable:" />
     <option name="path" hit="Path to P4VC executable:" />
     <option name="to" hit="Path to P4VC executable:" />
-    <option name="file" hit="Path to ignore file:" />
-    <option name="ignore" hit="Path to ignore file:" />
-    <option name="path" hit="Path to ignore file:" />
-    <option name="to" hit="Path to ignore file:" />
     <option name="perforce" hit="Perforce" />
-    <option name="is" hit="Perforce is online" />
-    <option name="online" hit="Perforce is online" />
-    <option name="perforce" hit="Perforce is online" />
-    <option name="port" hit="Server (Port):" />
-    <option name="server" hit="Server (Port):" />
     <option name="server" hit="Server timeout" />
     <option name="timeout" hit="Server timeout" />
     <option name="action" hit="Show branching history (for &quot;File History&quot; action, &quot;Compare With...&quot; list)" />
@@ -153,27 +140,12 @@
     <option name="switch" hit="Switch to offline mode automatically if Perforce is unavailable" />
     <option name="to" hit="Switch to offline mode automatically if Perforce is unavailable" />
     <option name="unavailable" hit="Switch to offline mode automatically if Perforce is unavailable" />
+    <option name="" hit="Test Connection" />
     <option name="connection" hit="Test Connection" />
     <option name="test" hit="Test Connection" />
-    <option name="environment" hit="Use P4IGNORE environment variable" />
-    <option name="p4ignore" hit="Use P4IGNORE environment variable" />
-    <option name="use" hit="Use P4IGNORE environment variable" />
-    <option name="variable" hit="Use P4IGNORE environment variable" />
-    <option name="connection" hit="Use connection parameters:" />
-    <option name="parameters" hit="Use connection parameters:" />
-    <option name="use" hit="Use connection parameters:" />
-    <option name="environment" hit="Use environment values" />
-    <option name="use" hit="Use environment values" />
-    <option name="values" hit="Use environment values" />
-    <option name="ignore" hit="Use ignore settings:" />
-    <option name="settings" hit="Use ignore settings:" />
-    <option name="use" hit="Use ignore settings:" />
     <option name="authentication" hit="Use login authentication" />
     <option name="login" hit="Use login authentication" />
     <option name="use" hit="Use login authentication" />
-    <option name="user" hit="User:" />
-    <option name="client" hit="Workspace (Client):" />
-    <option name="workspace" hit="Workspace (Client):" />
     <option name="seconds" hit="seconds" />
   </configurable>
 </options>

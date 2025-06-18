@@ -33,10 +33,9 @@
     <option name="save" path="ActionManager" hit="Save Context…" />
     <option name="description" path="ActionManager" hit="Show Description" />
     <option name="show" path="ActionManager" hit="Show Description" />
-    <option name="certificate" path="ActionManager" hit="Show certificate information dialog" />
-    <option name="dialog" path="ActionManager" hit="Show certificate information dialog" />
-    <option name="information" path="ActionManager" hit="Show certificate information dialog" />
-    <option name="show" path="ActionManager" hit="Show certificate information dialog" />
+    <option name="certificate" path="ActionManager" hit="Show certificate dialog" />
+    <option name="dialog" path="ActionManager" hit="Show certificate dialog" />
+    <option name="show" path="ActionManager" hit="Show certificate dialog" />
     <option name="switch" path="ActionManager" hit="Switch Task…" />
     <option name="task" path="ActionManager" hit="Switch Task…" />
   </configurable>
@@ -48,11 +47,6 @@
     <option name="name" hit="Changelist name format:" />
     <option name="connection" hit="Connection timeout:" />
     <option name="timeout" hit="Connection timeout:" />
-    <option name="display" hit="Display task switch in toolbar" />
-    <option name="in" hit="Display task switch in toolbar" />
-    <option name="switch" hit="Display task switch in toolbar" />
-    <option name="task" hit="Display task switch in toolbar" />
-    <option name="toolbar" hit="Display task switch in toolbar" />
     <option name="cache" hit="Enable cache" />
     <option name="enable" hit="Enable cache" />
     <option name="branch" hit="Feature branch name format:" />
@@ -69,6 +63,15 @@
     <option name="context" hit="Save context on commit" />
     <option name="on" hit="Save context on commit" />
     <option name="save" hit="Save context on commit" />
+    <option name="active" hit="Show task widget if there are no active tasks" />
+    <option name="are" hit="Show task widget if there are no active tasks" />
+    <option name="if" hit="Show task widget if there are no active tasks" />
+    <option name="no" hit="Show task widget if there are no active tasks" />
+    <option name="show" hit="Show task widget if there are no active tasks" />
+    <option name="task" hit="Show task widget if there are no active tasks" />
+    <option name="tasks" hit="Show task widget if there are no active tasks" />
+    <option name="there" hit="Show task widget if there are no active tasks" />
+    <option name="widget" hit="Show task widget if there are no active tasks" />
     <option name="history" hit="Task history length:" />
     <option name="length" hit="Task history length:" />
     <option name="task" hit="Task history length:" />
