@@ -1,6 +1,7 @@
 package com.itangcent.idea.plugin.api.dashboard
 
 import com.google.inject.Inject
+import com.google.inject.Provider
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.components.service
 import com.intellij.openapi.module.ModuleManager
@@ -61,6 +62,7 @@ import com.itangcent.intellij.psi.PsiClassUtils
 import com.itangcent.intellij.util.FileType
 import com.itangcent.suv.http.CookiePersistenceHelper
 import com.itangcent.suv.http.HttpClientProvider
+import com.itangcent.suv.http.HttpClientProviderProvider
 import org.apache.http.entity.ContentType
 import java.util.*
 import javax.swing.Icon
@@ -79,7 +81,7 @@ class ApiDashboardService(private val project: Project) {
     private lateinit var logger: Logger
 
     @Inject
-    private lateinit var httpClientProvider: HttpClientProvider
+    private lateinit var httpClientProvider: Provider<HttpClientProvider>
 
     @Inject
     private lateinit var classExporter: ClassExporter
@@ -106,7 +108,7 @@ class ApiDashboardService(private val project: Project) {
         private set
 
     private val cookieStore: CookieStore
-        get() = httpClientProvider.getHttpClient().cookieStore()
+        get() = httpClientProvider.get().getHttpClient().cookieStore()
 
     private val requestRawInfoBinderFactory: DbBeanBinderFactory<RequestRawInfo> by lazy {
         DbBeanBinderFactory(projectCacheRepository.getOrCreateFile(".api.dashboard.v1.0.db").path) { RequestRawInfo() }
@@ -172,7 +174,9 @@ class ApiDashboardService(private val project: Project) {
         builder.bind(MethodFilter::class) { it.with(CustomizedMethodFilter::class).singleton() }
         builder.bind(ConfigReader::class) { it.with(EnhancedConfigReader::class).singleton() }
         builder.bind(RuleParser::class) { it.with(SuvRuleParser::class).singleton() }
-
+        builder.bind(HttpClientProvider::class) {
+            it.with(HttpClientProvider::class).singleton()
+        }
         actionContext = builder.build()
         actionContext.init(this)
         actionContext.runAsync {
@@ -415,7 +419,7 @@ class ApiDashboardService(private val project: Project) {
     ): HttpResponse {
         logger.info("send request to $host$path")
         val url = RequestUtils.UrlBuild().host(host).path(path).url()
-        val httpResponse = httpClientProvider.getHttpClient()
+        val httpResponse = httpClientProvider.get().getHttpClient()
             .request()
             .method(method)
             .url(url)

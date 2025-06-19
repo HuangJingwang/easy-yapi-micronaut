@@ -16,7 +16,6 @@ import com.itangcent.spi.SpiSingleBeanProvider
  * @author tangcent
  * @date 2024/05/08
  */
-@ProvidedBy(HttpClientProviderProvider::class)
 interface HttpClientProvider {
 
     /**
@@ -24,6 +23,7 @@ interface HttpClientProvider {
      */
     fun getHttpClient(): HttpClient
 }
+
 
 @Singleton
 class HttpClientProviderProvider : SpiSingleBeanProvider<HttpClientProvider>()
