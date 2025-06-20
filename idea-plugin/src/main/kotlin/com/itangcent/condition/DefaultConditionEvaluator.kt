@@ -45,7 +45,7 @@ class DefaultConditionEvaluator : ConditionEvaluator {
         }
         for (condition in conditions) {
             val result = condition.matches(actionContext, beanClass)
-            logger.info("Condition ${condition::class.simpleName} for ${beanClass.simpleName}: $result")
+//            logger.info("Condition ${condition::class.simpleName} for ${beanClass.simpleName}: $result")
         }
         return conditions.all { it.matches(actionContext, beanClass) }
     }
@@ -58,7 +58,7 @@ class DefaultConditionEvaluator : ConditionEvaluator {
             } else if (condition.supported(beanClass)) {
                 conditions.add(condition)
             }
-            logger.info("${beanClass.simpleName} is annotated with @Conditional(${condition.javaClass.simpleName})")
+//            logger.info("${beanClass.simpleName} is annotated with @Conditional(${condition.javaClass.simpleName})")
         }
         beanClass.superClasses { kClass ->
             val conditional = kClass.findAnnotation<Conditional>()
