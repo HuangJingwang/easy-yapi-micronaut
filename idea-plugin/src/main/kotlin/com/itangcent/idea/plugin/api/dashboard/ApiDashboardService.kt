@@ -63,6 +63,7 @@ import com.itangcent.intellij.util.FileType
 import com.itangcent.suv.http.CookiePersistenceHelper
 import com.itangcent.suv.http.HttpClientProvider
 import com.itangcent.suv.http.HttpClientProviderProvider
+import com.itangcent.suv.http.OkHttpClientProvider
 import org.apache.http.entity.ContentType
 import java.util.*
 import javax.swing.Icon
@@ -174,9 +175,8 @@ class ApiDashboardService(private val project: Project) {
         builder.bind(MethodFilter::class) { it.with(CustomizedMethodFilter::class).singleton() }
         builder.bind(ConfigReader::class) { it.with(EnhancedConfigReader::class).singleton() }
         builder.bind(RuleParser::class) { it.with(SuvRuleParser::class).singleton() }
-        builder.bind(HttpClientProvider::class) {
-            it.with(HttpClientProvider::class).singleton()
-        }
+        builder.bind(HttpClientProvider::class) { it.with(OkHttpClientProvider::class).singleton() }
+
         actionContext = builder.build()
         actionContext.init(this)
         actionContext.runAsync {
