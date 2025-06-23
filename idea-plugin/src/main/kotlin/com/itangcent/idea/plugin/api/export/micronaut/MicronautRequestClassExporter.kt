@@ -39,7 +39,7 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
 
 
     override fun processClass(cls: PsiClass, classExportContext: ClassExportContext) {
-        logger.info("执行了micronaut的processClass")
+//        logger.info("执行了micronaut的processClass")
 
         val ctrlRequestMappingAnn = findRequestMappingInAnn(cls)
         var basePath: URL = findHttpPath(ctrlRequestMappingAnn)
@@ -61,11 +61,11 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
 //        logger.info("是否存在controller注解" + ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass));
 //        logger.info("MicronautControllerAnnotationResolver impl11 = ${micronautControllerAnnotationResolver.javaClass.simpleName}")
 //        logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is CustomMicronautControllerAnnotationResolver))
-        logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is StandardMicronautControllerAnnotationResolver))
-        logger.info("micronautControllerAnnotationResolver的类是：" + micronautControllerAnnotationResolver.javaClass)
+//        logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is StandardMicronautControllerAnnotationResolver))
+//        logger.info("micronautControllerAnnotationResolver的类是：" + micronautControllerAnnotationResolver.javaClass)
 
-        logger.info("执行了micronaut的hasApi" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass))
-        logger.info( "执行了micronaut的hasApi111"+ ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass))
+//        logger.info("执行了micronaut的hasApi" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass))
+//        logger.info( "执行了micronaut的hasApi111"+ ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass))
         return true
     }
 

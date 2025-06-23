@@ -110,7 +110,7 @@ abstract class RequestClassExporter : ClassExporter {
         if (cls !is PsiClass) {
             return false
         }
-        logger.debug("export api from:" + this::class.qualifiedName)
+//        logger.debug("export api from:" + this::class.qualifiedName)
         return doExport(cls, docHandle)
     }
 
@@ -132,7 +132,7 @@ abstract class RequestClassExporter : ClassExporter {
             }
         }
 
-        logger.info("search simple api from: $clsQualifiedName")
+//        logger.info("search simple api from: $clsQualifiedName")
 
         val classExportContext = ClassExportContext(cls)
 
