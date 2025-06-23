@@ -55,19 +55,22 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
     }
 
     override fun hasApi(psiClass: PsiClass): Boolean {
-        logger.info("执行了micronaut的hasApi")
-        logger.info("是否存在controller注解" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass));
+//        logger.info("执行了micronaut的hasApi")
+//        logger.info("是否存在controller注解" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass));
 
-        logger.info("是否存在controller注解" + ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass));
-        logger.info("MicronautControllerAnnotationResolver impl11 = ${micronautControllerAnnotationResolver.javaClass.simpleName}")
+//        logger.info("是否存在controller注解" + ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass));
+//        logger.info("MicronautControllerAnnotationResolver impl11 = ${micronautControllerAnnotationResolver.javaClass.simpleName}")
 //        logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is CustomMicronautControllerAnnotationResolver))
         logger.info("当前的实现使用的是" + (micronautControllerAnnotationResolver is StandardMicronautControllerAnnotationResolver))
+        logger.info("micronautControllerAnnotationResolver的类是：" + micronautControllerAnnotationResolver.javaClass)
 
+        logger.info("执行了micronaut的hasApi" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass))
+        logger.info( "执行了micronaut的hasApi111"+ ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass))
         return true
     }
 
     override fun isApi(psiMethod: PsiMethod): Boolean {
-        logger.info("执行了micronaut的isApi" + psiMethod.name)
+//        logger.info("执行了micronaut的isApi" + psiMethod.name)
         return micronautRequestMappingResolver.resolveRequestMapping(psiMethod) != null
     }
 

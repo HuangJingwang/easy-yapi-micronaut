@@ -18,7 +18,7 @@ abstract class SpiCompositeBeanProvider<T : Any> : AbstractSpiBeanProvider<T>() 
         if (services.isEmpty()) {
             throw IllegalStateException("No services found for ${kClass.qualifiedName}")
         }
-        
+
         // If there's only one service, return it directly
         if (services.size == 1) {
             return services[0]

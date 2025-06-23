@@ -29,6 +29,7 @@ abstract class AbstractSpiBeanProvider<T : Any> : Provider<T> {
     @Suppress("UNCHECKED_CAST")
     override fun get(): T {
         val context = ActionContext.getContext()
+
         return if (context != null) {
             // ActionContext is prepared, load the bean directly
             loadBean(context, kClass)

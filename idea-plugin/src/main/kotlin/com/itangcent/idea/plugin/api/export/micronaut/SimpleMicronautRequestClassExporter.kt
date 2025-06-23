@@ -103,8 +103,6 @@ open class SimpleMicronautRequestClassExporter : ClassExporter {
         docHandle: DocHandle
     ) {
         actionContext.checkStatus()
-        val mapping = findRequestMappingInAnn(method) ?: return
-
         val request = Request()
         request.resource = PsiMethodResource(method, psiClass)
         request.name = apiHelper.nameOfApi(method)
