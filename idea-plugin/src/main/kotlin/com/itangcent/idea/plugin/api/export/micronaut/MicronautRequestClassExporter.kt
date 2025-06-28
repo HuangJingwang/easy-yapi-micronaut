@@ -126,7 +126,7 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
         //path
         val pathVariableAnn = findPathVariable(parameterExportContext.psi())
         if (pathVariableAnn != null) {
-
+            logger.warn("pathVariable is not supported in micronaut", )
             var pathName = pathVariableAnn["value"]?.toString()
 
             if (pathName == null) {
