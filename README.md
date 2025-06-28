@@ -44,3 +44,6 @@
 1. **构建时可能抛出异常**，但不影响插件功能运行。
 2. **SPI 动态加载机制当前可能不生效**，原因可能与依赖升级有关，待进一步验证。
 3. **Micronaut 基本注解支持完备**，如 `@Controller`、`@Get`、`@Post` 等均可正常导出至 YApi，@QueryValue`, `@PathVariable还未支持，待改进。
+
+## 2025.6.28 更新
+1. 目前支持了Micronaut的@PathVariable和@Header注解
