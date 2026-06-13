@@ -1,3 +1,5 @@
+import org.jetbrains.intellij.tasks.InstrumentCodeTask
+
 plugins {
     id("org.jetbrains.intellij") version "1.17.1"
 }
@@ -27,9 +29,23 @@ repositories {
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     kotlinOptions.jvmTarget = "17"
 }
+tasks.withType<JavaCompile> {
+    options.release.set(17)
+}
+tasks.withType<InstrumentCodeTask> {
+    compilerClassPathFromMaven.set(ideaDependency.map { idea ->
+        val libJars = idea.classes.resolve("lib")
+            .listFiles { file -> file.extension == "jar" }
+            ?.toList()
+            .orEmpty()
+        libJars + idea.classes.resolve("plugins/java/lib/javac2.jar")
+    })
+}
 java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion.set(JavaLanguageVersion.of(maxOf(17, JavaVersion.current().majorVersion.toInt())))
     }
 }
 dependencies {

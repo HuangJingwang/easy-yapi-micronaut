@@ -2,6 +2,8 @@ group = "com.itangcent"
 version = properties["plugin_version"]!!
 
 repositories {
+    maven("https://maven.aliyun.com/repository/public")
+    maven("https://maven.aliyun.com/repository/central")
     mavenCentral()
 }
 
@@ -58,8 +60,14 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     }
 }
 
+tasks.withType<JavaCompile> {
+    options.release.set(17)
+}
+
 java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion.set(JavaLanguageVersion.of(maxOf(17, JavaVersion.current().majorVersion.toInt())))
     }
 }
