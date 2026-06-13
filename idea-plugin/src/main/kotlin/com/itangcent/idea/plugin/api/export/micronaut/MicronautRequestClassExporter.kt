@@ -35,7 +35,7 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
     protected lateinit var micronautRequestMappingResolver: MicronautRequestMappingResolver
 
     @Inject
-    private lateinit var micronautControllerAnnotationResolver: StandardMicronautControllerAnnotationResolver
+    private lateinit var micronautControllerAnnotationResolver: MicronautControllerAnnotationResolver
 
 
     override fun processClass(cls: PsiClass, classExportContext: ClassExportContext) {
@@ -66,7 +66,8 @@ open class MicronautRequestClassExporter : RequestClassExporter() {
 
 //        logger.info("执行了micronaut的hasApi" + micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass))
 //        logger.info( "执行了micronaut的hasApi111"+ ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass))
-        return true
+        return micronautControllerAnnotationResolver.hasControllerAnnotation(psiClass) ||
+               (ruleComputer.computer(ClassExportRuleKeys.IS_MICRONAUT_CTRL, psiClass) ?: false)
     }
 
     override fun isApi(psiMethod: PsiMethod): Boolean {
