@@ -138,7 +138,7 @@ intellij {
     type.set("IC")
     pluginName.set("easy-yapi")
     sandboxDir.set("idea-sandbox")
-    plugins.set(listOf("java", "maven", "gradle"))
+    plugins.set(listOf("java", "maven", "gradle", "org.intellij.groovy"))
 }
 
 tasks {
@@ -167,4 +167,3 @@ tasks {
         finalizedBy("cleanBin")
     }
 }
-

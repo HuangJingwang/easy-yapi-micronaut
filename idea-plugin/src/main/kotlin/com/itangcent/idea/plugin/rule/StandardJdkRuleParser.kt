@@ -48,7 +48,7 @@ abstract class StandardJdkRuleParser : ScriptRuleParser() {
     protected abstract fun scriptType(): String
 
     private fun buildScriptEngine(): ScriptEngine? {
-        val manager = ScriptEngineManager()
+        val manager = ScriptEngineManager(javaClass.classLoader)
         return manager.getEngineByName(scriptType())
     }
 
@@ -60,11 +60,11 @@ abstract class StandardJdkRuleParser : ScriptRuleParser() {
         synchronized(this) {
             if (scriptEngine != null) return scriptEngine!!
             scriptEngine = buildScriptEngine()
+            if (scriptEngine == null) {
+                unsupported = true
+                throw UnsupportedScriptException(scriptType())
+            }
             initScripEngine(scriptEngine!!)
-        }
-        if (scriptEngine == null) {
-            unsupported = true
-            throw UnsupportedScriptException(scriptType())
         }
         return scriptEngine!!
     }

@@ -57,6 +57,17 @@ internal class StandardJdkRuleParserTest : RuleParserBaseTest() {
         return "x=123\nx=456\ny=666"
     }
 
+    fun testUnsupportedScriptEngine() {
+        val missingScriptRuleParser = actionContext.instance(MissingScriptRuleParser::class)
+
+        LoggerCollector.getLog()//clear
+        assertNull(missingScriptRuleParser.parseStringRule("1")!!(ruleContext))
+        assertEquals(
+            "[ERROR]\tunsupported script type:missing-script-engine,script:1\n",
+            LoggerCollector.getLog().toUnixString()
+        )
+    }
+
     fun testLogger() {
         arrayOf("logger", "LOG").forEach { logger ->
             LoggerCollector.getLog()//clear
@@ -228,6 +239,12 @@ internal class StandardJdkRuleParserTest : RuleParserBaseTest() {
             assertLinesContain(
                 ResultLoader.load("runtime.log"), LoggerCollector.getLog().toUnixString()
             )
+        }
+    }
+
+    class MissingScriptRuleParser : StandardJdkRuleParser() {
+        override fun scriptType(): String {
+            return "missing-script-engine"
         }
     }
 }
